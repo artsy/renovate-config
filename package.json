@@ -1,0 +1,45 @@
+{
+  "name": "@artsy/renovate-config",
+  "description": "Arty's Renovate preset configs",
+  "author": "zephraph <zephraph@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/artsy/renovate-config",
+  "repository": "https://github.com/artsy/reaction.git",
+  "bugs": {
+    "url": "https://github.com/artsy/renovate-config/issues"
+  },
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "release-it": "^7.6.3",
+    "renovate": "13.128.1"
+  },
+  "renovate-config": {
+    "default": {
+      "extends": [
+        "config:base"
+      ],
+      "packageRules": [
+        {
+          "packagePatterns": [
+            "*"
+          ],
+          "excludePackagePatterns": [
+            "^@artsy"
+          ],
+          "enabled": false
+        }
+      ],
+      "enabledManagers": [
+        "npm"
+      ],
+      "vulnerabilityAlerts": {
+        "enabled": false
+      },
+      "prHourlyLimit": 0
+    }
+  }
+}
