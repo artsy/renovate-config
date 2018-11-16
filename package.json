@@ -14,6 +14,7 @@
     "test": "jest"
   },
   "devDependencies": {
+    "conventional-changelog-ember": "^2.0.2",
     "jest": "^23.6.0",
     "renovate": "13.128.1",
     "semantic-release": "^15.12.0"
