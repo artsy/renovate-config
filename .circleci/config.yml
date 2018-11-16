@@ -17,7 +17,7 @@ jobs:
       # Setup the .npmrc with the proper registry and auth token to publish
       - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
       - run: |
-          yarn release
+          yarn semantic-release
   update-cache:
     executor: node/build
     steps:
@@ -28,14 +28,14 @@ workflows:
     jobs:
       - update-cache
       - test
-      # - deploy:
-      #     # The deploy job is the _only_ job that should have access to our npm
-      #     # tokens. We include a context that has our publish credentials
-      #     # explicitly in this step. https://circleci.com/docs/2.0/contexts/
-      #     context: npm-deploy
-      #     filters:
-      #       branches:
-      #         only:
-      #           - master
-      #     requires:
-      #       - update-cache
+      - deploy:
+          # The deploy job is the _only_ job that should have access to our npm
+          # tokens. We include a context that has our publish credentials
+          # explicitly in this step. https://circleci.com/docs/2.0/contexts/
+          context: npm-deploy
+          filters:
+            branches:
+              only:
+                - master
+          requires:
+            - update-cache

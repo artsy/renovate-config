@@ -10,13 +10,13 @@
   },
   "version": "1.0.1",
   "scripts": {
-    "release": "release-it",
+    "semantic-release": "semantic-release",
     "test": "jest"
   },
   "devDependencies": {
     "jest": "^23.6.0",
-    "release-it": "^7.6.3",
-    "renovate": "13.128.1"
+    "renovate": "13.128.1",
+    "semantic-release": "^15.12.0"
   },
   "renovate-config": {
     "default": {
@@ -41,6 +41,33 @@
         "enabled": false
       },
       "prHourlyLimit": 0
+    }
+  },
+  "release": {
+    "analyzeCommits": {
+      "preset": "ember",
+      "releaseRules": [
+        {
+          "tag": "DOC",
+          "release": "patch"
+        },
+        {
+          "tag": "FIX",
+          "release": "patch"
+        },
+        {
+          "tag": "PATCH",
+          "release": "patch"
+        },
+        {
+          "tag": "FEATURE",
+          "release": "minor"
+        },
+        {
+          "tag": "BREAKING",
+          "release": "major"
+        }
+      ]
     }
   }
 }
