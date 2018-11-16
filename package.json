@@ -10,7 +10,7 @@
   },
   "version": "1.0.0",
   "scripts": {
-    "release": "release-it patch",
+    "release": "release-it",
     "test": "jest"
   },
   "devDependencies": {
