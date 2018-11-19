@@ -38,3 +38,4 @@ workflows:
                 - master
           requires:
             - update-cache
+            - test
