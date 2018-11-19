@@ -44,7 +44,10 @@
       "vulnerabilityAlerts": {
         "enabled": false
       },
-      "prHourlyLimit": 0
+      "prHourlyLimit": 0,
+      "prBodyNotes": [
+        "See full list of changes [here]({{repositoryUrl}}/compare/{{currentValue}}...{{newValue}})."
+      ]
     }
   },
   "release": {
