@@ -48,6 +48,11 @@
       "prBodyNotes": [
         "See full list of changes [here]({{repositoryUrl}}/compare/v{{currentValue}}...v{{newValue}})."
       ]
+    },
+    "node": {
+      "enabledManagers": [
+        "docker"
+      ]
     }
   },
   "release": {
