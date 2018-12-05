@@ -5985,10 +5985,10 @@ remove-trailing-separator@^1.0.1:
   resolved "https://registry.yarnpkg.com/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz#c24bce2a283adad5bc3f58e0d48249b92379d8ef"
   integrity sha1-wkvOKig62tW8P1jg1IJJuSN52O8=
 
-renovate@13.137.1:
-  version "13.137.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-13.137.1.tgz#e183afb385535205fc1cbbb1afbe11b546a53634"
-  integrity sha512-TEFhO2LS3DSIu/2h2WjfKBRQ6Uhq09qpkOYkGnbNXOK8hZRs09OJMJSmRVe0LdHUFpJyvjDKfS7Hxief4VKlag==
+renovate@13.138.0:
+  version "13.138.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-13.138.0.tgz#04535ebba77fd482d128b22364d079d0e5eb482f"
+  integrity sha512-oAUvyZxTGmJyyyHg7sjfIF84Y5ouX8JsejW71+fVadJ6apqO3zcYtDgmmJO8jbopMl3qKxca7+seHqOWLLkV3A==
   dependencies:
     "@renovate/pep440" "0.4.0"
     "@sindresorhus/is" "0.13.0"
