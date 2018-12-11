@@ -46,7 +46,7 @@
       },
       "prHourlyLimit": 0,
       "prBodyNotes": [
-        "See full list of changes [here]({{repositoryUrl}}/compare/v{{currentValue}}...v{{newValue}})."
+        "See full list of changes [here]({{sourceUrl}}/compare/v{{currentValue}}...v{{newValue}})."
       ]
     },
     "node": {
