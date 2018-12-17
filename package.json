@@ -19,7 +19,7 @@
   "devDependencies": {
     "conventional-changelog-ember": "2.0.2",
     "jest": "23.6.0",
-    "renovate": "13.152.1",
+    "renovate": "13.152.2",
     "semantic-release": "15.13.1"
   },
   "renovate-config": {
