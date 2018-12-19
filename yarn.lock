@@ -143,7 +143,7 @@
     into-stream "^4.0.0"
     lodash "^4.17.4"
 
-"@sindresorhus/is@0.14.0":
+"@sindresorhus/is@0.14.0", "@sindresorhus/is@^0.14.0":
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
   integrity sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
@@ -2547,12 +2547,12 @@ globby@^8.0.0:
     pify "^3.0.0"
     slash "^1.0.0"
 
-got@9.4.0:
-  version "9.4.0"
-  resolved "https://registry.yarnpkg.com/got/-/got-9.4.0.tgz#3b52a54306514b0404b869e1ba572b594772f2b1"
-  integrity sha512-k15lhRXITxW0eURHfEGzV+8pBYBHtTrYterFlMzP5rXQcQMPikDC2wvZkgivcJwGH4bv1JzMUTPlHfYGhuXJnw==
+got@9.5.0:
+  version "9.5.0"
+  resolved "https://registry.yarnpkg.com/got/-/got-9.5.0.tgz#6fd0312c6b694c0a11d9119d95fd7daed174eb49"
+  integrity sha512-N+4kb6i9t1lauJ4NwLVVoFVLxZNa6i+iivtNzCSVw7+bVbTXoq0qXctdd8i9rj3lrI0zDk5NGzcO4bfpEP6Uuw==
   dependencies:
-    "@sindresorhus/is" "^0.12.0"
+    "@sindresorhus/is" "^0.14.0"
     "@szmarczak/http-timer" "^1.1.0"
     cacheable-request "^5.1.0"
     decompress-response "^3.3.0"
@@ -6101,10 +6101,10 @@ remove-trailing-separator@^1.0.1:
   resolved "https://registry.yarnpkg.com/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz#c24bce2a283adad5bc3f58e0d48249b92379d8ef"
   integrity sha1-wkvOKig62tW8P1jg1IJJuSN52O8=
 
-renovate@13.156.0:
-  version "13.156.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-13.156.0.tgz#f09f5e3a0538e1919c5b5eb1c3d8339ec6f0af92"
-  integrity sha512-CMUE168pqTDmYrpiE1W/HLrc3KJeLIt9qpFcf/pq7fGeepvbBT04d0062iE7PM5BZIGHWy9tMLvsT6ak8PoIRg==
+renovate@13.156.1:
+  version "13.156.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-13.156.1.tgz#62e87ec514e976e781628ec0a76c925e8970a2b9"
+  integrity sha512-EOWoC3Oi1Z31s+k67i2PnOpx6ibywMBSAcxv/DNR87r7QdiV4buCgc50EZzkEZMbZVbUx3Z35IwsyVQ+WcvA5A==
   dependencies:
     "@renovate/pep440" "0.4.0"
     "@renovatebot/docker-registry-client" "3.3.0"
@@ -6133,7 +6133,7 @@ renovate@13.156.0:
     gh-got "8.0.1"
     github-url-from-git "1.5.0"
     gl-got "9.0.2"
-    got "9.4.0"
+    got "9.5.0"
     handlebars "4.0.12"
     ini "1.3.5"
     js-yaml "3.12.0"
