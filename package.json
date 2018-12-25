@@ -47,7 +47,8 @@
       "prHourlyLimit": 0,
       "prBodyNotes": [
         "See full list of changes [here]({{sourceUrl}}/compare/v{{currentValue}}...v{{newValue}})."
-      ]
+      ],
+      "timezone": "America/New_York"
     },
     "node": {
       "enabledManagers": [
