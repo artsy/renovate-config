@@ -13,7 +13,7 @@
   },
   "version": "0.0.0-development",
   "scripts": {
-    "semantic-release": "semantic-release",
+    "release": "auto shipit",
     "test": "jest"
   },
   "devDependencies": {
