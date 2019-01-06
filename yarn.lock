@@ -957,10 +957,10 @@ ccount@^1.0.0:
   resolved "https://registry.yarnpkg.com/ccount/-/ccount-1.0.3.tgz#f1cec43f332e2ea5a569fd46f9f5bde4e6102aff"
   integrity sha512-Jt9tIBkRc9POUof7QA/VwWd+58fKkEEfI+/t1/eOlxKM7ZhrczNzMFefge7Ai+39y1pR/pP6cI19guHy3FSLmw==
 
-chalk@2.4.1, chalk@^2.0.0, chalk@^2.0.1, chalk@^2.3.1, chalk@^2.3.2, chalk@^2.4.1:
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.1.tgz#18c49ab16a037b6eb0152cc83e3471338215b66e"
-  integrity sha512-ObN6h1v2fTJSmUXoS3nMQ92LbDK9be4TV+6G+omQlGJFdcUX5heKi1LZ1YnRMIgwTLEj3E24bT6tYni50rlCfQ==
+chalk@2.4.2:
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
+  integrity sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==
   dependencies:
     ansi-styles "^3.2.1"
     escape-string-regexp "^1.0.5"
@@ -976,6 +976,15 @@ chalk@^1.1.3:
     has-ansi "^2.0.0"
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
+
+chalk@^2.0.0, chalk@^2.0.1, chalk@^2.3.1, chalk@^2.3.2, chalk@^2.4.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.1.tgz#18c49ab16a037b6eb0152cc83e3471338215b66e"
+  integrity sha512-ObN6h1v2fTJSmUXoS3nMQ92LbDK9be4TV+6G+omQlGJFdcUX5heKi1LZ1YnRMIgwTLEj3E24bT6tYni50rlCfQ==
+  dependencies:
+    ansi-styles "^3.2.1"
+    escape-string-regexp "^1.0.5"
+    supports-color "^5.3.0"
 
 changelog-filename-regex@2.0.1:
   version "2.0.1"
@@ -2246,12 +2255,12 @@ getpass@^0.1.1:
   dependencies:
     assert-plus "^1.0.0"
 
-gh-got@8.0.1:
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/gh-got/-/gh-got-8.0.1.tgz#857c5e9bcd52956e14a9f200d010c641a2f992b3"
-  integrity sha512-i2TkU/u5ti1Wgc34y65FDSCKDuuuVH1Qa6192e0E2Z2CvleS0zPgArpiPZroiQdp9f5gbohw9UZCTTcrjIzwFw==
+gh-got@8.1.0:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/gh-got/-/gh-got-8.1.0.tgz#2378d07ac293f524549c75f8dc6f3604a885ab01"
+  integrity sha512-Jy7+73XqsAVeAtM5zA0dd+A7mmzkQVIzFuw3xRjFbPsQVqS+aeci8v8H1heOCAPlBYWED5ZYPhlYqZVXdD3Fmg==
   dependencies:
-    got "^9.1.0"
+    got "^9.5.0"
 
 git-raw-commits@^2.0.0:
   version "2.0.0"
@@ -2354,7 +2363,7 @@ globals@^9.18.0:
   resolved "https://registry.yarnpkg.com/globals/-/globals-9.18.0.tgz#aa3896b3e69b487f17e31ed2143d69a8e30c2d8a"
   integrity sha512-S0nG3CLEQiY/ILxqtztTWH/3iRRdyBLw6KMDxnKMchrtbj2OFmehVh0WUCfW3DUrIgx/qFrJPICrq4Z4sTR9UQ==
 
-got@9.5.0:
+got@9.5.0, got@^9.5.0:
   version "9.5.0"
   resolved "https://registry.yarnpkg.com/got/-/got-9.5.0.tgz#6fd0312c6b694c0a11d9119d95fd7daed174eb49"
   integrity sha512-N+4kb6i9t1lauJ4NwLVVoFVLxZNa6i+iivtNzCSVw7+bVbTXoq0qXctdd8i9rj3lrI0zDk5NGzcO4bfpEP6Uuw==
@@ -2388,7 +2397,7 @@ got@^6.7.1:
     unzip-response "^2.0.1"
     url-parse-lax "^1.0.0"
 
-got@^9.1.0, got@^9.2.0:
+got@^9.2.0:
   version "9.3.2"
   resolved "https://registry.yarnpkg.com/got/-/got-9.3.2.tgz#f6e3bd063aa8f461ccd924afa2ba2b61deab3989"
   integrity sha512-OyKOUg71IKvwb8Uj0KP6EN3+qVVvXmYsFznU1fnwUnKtDbZnwSlAi7muNlu4HhBfN9dImtlgg9e7H0g5qVdaeQ==
@@ -5688,10 +5697,10 @@ remove-trailing-separator@^1.0.1:
   resolved "https://registry.yarnpkg.com/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz#c24bce2a283adad5bc3f58e0d48249b92379d8ef"
   integrity sha1-wkvOKig62tW8P1jg1IJJuSN52O8=
 
-renovate@13.167.1:
-  version "13.167.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-13.167.1.tgz#8e55f7a503a2726c5f369facc11519787c28cab3"
-  integrity sha512-Suyz7Xe0IdfzSpMM3GbnWlJLpTGljlUt6HU0JlAmRk6nl1i91ohABtol4b5QgzyIWb/AmKr1a0r3cNIxMU9ymA==
+renovate@13.167.3:
+  version "13.167.3"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-13.167.3.tgz#35bb22421ca0434debf1cc541a2f33250e8b95f4"
+  integrity sha512-hd3gIeEWJCH2DY//PKq0mCnWuztquieFs8/COIx3hN19kPXLwtcEtIRunUPh8ekj6CygMkV7xGg/oKqLEpgf2w==
   dependencies:
     "@renovate/pep440" "0.4.0"
     "@renovatebot/docker-registry-client" "3.3.0"
@@ -5701,7 +5710,7 @@ renovate@13.167.1:
     azure-devops-node-api "6.6.3"
     bunyan "1.8.12"
     cacache "11.3.2"
-    chalk "2.4.1"
+    chalk "2.4.2"
     changelog-filename-regex "2.0.1"
     child-process-promise "2.2.1"
     clean-git-ref "1.0.3"
@@ -5718,7 +5727,7 @@ renovate@13.167.1:
     form-data "2.3.3"
     fs-extra "7.0.1"
     get-installed-path "4.0.8"
-    gh-got "8.0.1"
+    gh-got "8.1.0"
     github-url-from-git "1.5.0"
     gl-got "9.0.2"
     got "9.5.0"
