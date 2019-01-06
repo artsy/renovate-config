@@ -3,5 +3,8 @@
   "automerge": true,
   "assignees": ["zephraph"],
   "prHourlyLimit": 0,
-  "prConcurrentLimit": 0
+  "prConcurrentLimit": 0,
+  "labels": [
+    "Version: Trivial"
+  ]
 }
