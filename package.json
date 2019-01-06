@@ -20,7 +20,7 @@
   "devDependencies": {
     "auto-release-cli": "1.0.0",
     "jest": "23.6.0",
-    "renovate": "13.168.1"
+    "renovate": "13.169.0"
   },
   "renovate-config": {
     "default": {
