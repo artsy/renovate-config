@@ -18,7 +18,7 @@
     "test": "jest"
   },
   "devDependencies": {
-    "auto-release-cli": "^1.0.0",
+    "auto-release-cli": "1.0.0",
     "jest": "23.6.0",
     "renovate": "13.166.3"
   },
