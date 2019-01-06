@@ -17,10 +17,9 @@
     "test": "jest"
   },
   "devDependencies": {
-    "conventional-changelog-ember": "2.0.2",
+    "auto-release-cli": "^1.0.0",
     "jest": "23.6.0",
-    "renovate": "13.166.3",
-    "semantic-release": "15.13.2"
+    "renovate": "13.166.3"
   },
   "renovate-config": {
     "default": {
@@ -53,33 +52,6 @@
     "node": {
       "enabledManagers": [
         "docker"
-      ]
-    }
-  },
-  "release": {
-    "analyzeCommits": {
-      "preset": "ember",
-      "releaseRules": [
-        {
-          "tag": "DOC",
-          "release": "patch"
-        },
-        {
-          "tag": "FIX",
-          "release": "patch"
-        },
-        {
-          "tag": "PATCH",
-          "release": "patch"
-        },
-        {
-          "tag": "FEATURE",
-          "release": "minor"
-        },
-        {
-          "tag": "BREAKING",
-          "release": "major"
-        }
       ]
     }
   }
