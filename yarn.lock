@@ -54,12 +54,12 @@
     universal-user-agent "^2.0.0"
     url-template "^2.0.8"
 
-"@renovate/pep440@0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@renovate/pep440/-/pep440-0.4.0.tgz#fbc38e1c440ea949db2fdc776833615494515171"
-  integrity sha512-vKD/m0yKaX38UGV7evfOTGARmNdp3+EsBzoJ0sLGVCGGsNCGKAsOEsht+S41ixh0xTgKLgdbkohhr+23eKp0MQ==
+"@renovate/pep440@0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@renovate/pep440/-/pep440-0.4.1.tgz#0b0d2c30547f3ecc6ac0083cd7afd15db04979be"
+  integrity sha512-UJR4qqM5l1b84iXd9SS8nPOFfxCWDgL3uOhhYwb15DgC1j8wf5ZLoyTcVUhnCLXG770c999PNLJEUl4wRscvhQ==
   dependencies:
-    xregexp "^4.1.1"
+    xregexp "4.2.0"
 
 "@renovatebot/docker-registry-client@3.3.0":
   version "3.3.0"
@@ -5697,12 +5697,12 @@ remove-trailing-separator@^1.0.1:
   resolved "https://registry.yarnpkg.com/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz#c24bce2a283adad5bc3f58e0d48249b92379d8ef"
   integrity sha1-wkvOKig62tW8P1jg1IJJuSN52O8=
 
-renovate@13.169.0:
-  version "13.169.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-13.169.0.tgz#18848e91f93ceb3af5a68c79fa527e0f218a89a4"
-  integrity sha512-pLxVoa79B8VJ5DtGT3766+9y21UADCq7/7RjImnI4D02NXjnfGTSsiGm7K9VxV7KOyubFF/gSMLvHQVxDQ8Jtg==
+renovate@13.170.2:
+  version "13.170.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-13.170.2.tgz#ed9ac5fbc40da0e8eb6a8668029f8f2c2f6832d1"
+  integrity sha512-9J4dQvASTKYjrwUwWHfaPIXko0AG+j28TrCGABLxKzm18Kz3W5jczWiyIkeQTCyhUc+//8UYhKtDprDnqgZKaA==
   dependencies:
-    "@renovate/pep440" "0.4.0"
+    "@renovate/pep440" "0.4.1"
     "@renovatebot/docker-registry-client" "3.3.0"
     "@sindresorhus/is" "0.14.0"
     "@snyk/ruby-semver" "2.0.0"
@@ -7281,7 +7281,7 @@ xregexp@2.0.0:
   resolved "https://registry.yarnpkg.com/xregexp/-/xregexp-2.0.0.tgz#52a63e56ca0b84a7f3a5f3d61872f126ad7a5943"
   integrity sha1-UqY+VsoLhKfzpfPWGHLxJq16WUM=
 
-xregexp@^4.1.1:
+xregexp@4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/xregexp/-/xregexp-4.2.0.tgz#33f09542b0d7cabed46728eeacac4d5bd764ccf5"
   integrity sha512-IyMa7SVe9FyT4WbQVW3b95mTLVceHhLEezQ02+QMvmIqDnKTxk0MLWIQPSW2MXAr1zQb+9yvwYhcyQULneh3wA==
