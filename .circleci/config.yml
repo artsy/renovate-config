@@ -9,6 +9,9 @@ workflows:
       - yarn/update-cache
       - yarn/auto-pr-check:
           context: github
+          filters:
+            branches:
+              ignore: master
       - yarn/test
       - yarn/auto-release:
           # The deploy job is the _only_ job that should have access to our npm
@@ -17,8 +20,7 @@ workflows:
           context: npm-deploy
           filters:
             branches:
-              only:
-                - master
+              only: master
           requires:
             - yarn/update-cache
             - yarn/test
