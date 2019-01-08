@@ -9,7 +9,7 @@ workflows:
       - yarn/update-cache
       - yarn/auto-pr-check
       - yarn/test
-      - yarn/deploy:
+      - yarn/auto-release:
           # The deploy job is the _only_ job that should have access to our npm
           # tokens. We include a context that has our publish credentials
           # explicitly in this step. https://circleci.com/docs/2.0/contexts/
