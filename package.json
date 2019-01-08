@@ -29,6 +29,7 @@
       ],
       "packageRules": [
         {
+          "managers": ["npm"],
           "packagePatterns": [
             "*"
           ],
