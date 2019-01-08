@@ -39,7 +39,8 @@
         }
       ],
       "enabledManagers": [
-        "npm"
+        "npm",
+        "circleci"
       ],
       "vulnerabilityAlerts": {
         "enabled": false
