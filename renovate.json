@@ -4,6 +4,9 @@
   "assignees": ["zephraph"],
   "prHourlyLimit": 0,
   "prConcurrentLimit": 0,
+  "circleci": {
+    "enabled": true
+  },
   "labels": [
     "Version: Trivial"
   ]
