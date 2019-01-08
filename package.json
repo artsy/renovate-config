@@ -34,7 +34,8 @@
             "*"
           ],
           "excludePackagePatterns": [
-            "^@artsy"
+            "^@artsy",
+            "auto-release-cli"
           ],
           "enabled": false
         }
