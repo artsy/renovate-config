@@ -316,6 +316,18 @@ array-find-index@^1.0.1:
   resolved "https://registry.yarnpkg.com/array-find-index/-/array-find-index-1.0.2.tgz#df010aa1287e164bbda6f9723b0a96a1ec4187a1"
   integrity sha1-3wEKoSh+Fku9pvlyOwqWoexBh6E=
 
+array-union@^1.0.1:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/array-union/-/array-union-1.0.2.tgz#9a34410e4f4e3da23dea375be5be70f24778ec39"
+  integrity sha1-mjRBDk9OPaI96jdb5b5w8kd47Dk=
+  dependencies:
+    array-uniq "^1.0.1"
+
+array-uniq@^1.0.1:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/array-uniq/-/array-uniq-1.0.3.tgz#af6ac877a25cc7f74e058894753858dfdb24fdb6"
+  integrity sha1-r2rId6Jcx/dOBYiUdThY39sk/bY=
+
 array-unique@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/array-unique/-/array-unique-0.2.1.tgz#a1d97ccafcbc2625cc70fadceb36a50c58b01a53"
@@ -414,10 +426,10 @@ author-regex@^1.0.0:
   resolved "https://registry.yarnpkg.com/author-regex/-/author-regex-1.0.0.tgz#d08885be6b9bbf9439fe087c76287245f0a81450"
   integrity sha1-0IiFvmubv5Q5/gh8dihyRfCoFFA=
 
-auto-release-cli@2.1.3:
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/auto-release-cli/-/auto-release-cli-2.1.3.tgz#aca544a8c3fa62fc7d6605fc71336c26119c6d71"
-  integrity sha512-/wgnwbt14ubXXqgbtBMQ7B9EwOokiVR5wvfLKo3ZMCY+b3r0sU4PSNZ6VNzn8UQxpLCIBriN9+TNJutyo7OPBg==
+auto-release-cli@2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/auto-release-cli/-/auto-release-cli-2.2.0.tgz#32b33dc9fc221d1df9ab5b4818215273ae5c4009"
+  integrity sha512-Sx374zDsbv1LrtAOVpDA2r/ZbKtD9XPWVqcYu94kXR50ykiqh4DpgdqQcxnqF4OsIhxpKuOLsjtWDimOlauhEw==
   dependencies:
     "@octokit/rest" "^16.3.0"
     chalk "^2.4.1"
@@ -426,6 +438,7 @@ auto-release-cli@2.1.3:
     cosmiconfig "5.0.7"
     enquirer "^2.3.0"
     env-ci "^3.1.3"
+    get-monorepo-packages "^1.1.0"
     gitlog "^3.1.2"
     node-fetch "2.3.0"
     parse-author "^2.0.0"
@@ -1601,6 +1614,13 @@ diff@^3.2.0:
   resolved "https://registry.yarnpkg.com/diff/-/diff-3.5.0.tgz#800c0dd1e0a8bfbc95835c202ad220fe317e5a12"
   integrity sha512-A46qtFgd+g7pDZinpnwiRJtxbC1hpgf0uzP3iG89scHk0AUC7A1TGxf5OiiOUv/JMZR8GOt8hL900hV0bOy5xA==
 
+dir-glob@^2.0.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/dir-glob/-/dir-glob-2.2.0.tgz#7c2986acade3beda2a037dcd9d20af7256cff6c5"
+  integrity sha512-YqrO+bduKFqPgspvpjDAaKk0qhmvY+SY7NjIRljCDAy6CX7Ft65irIduHbrYXhy+BxJnYKjWuREw6X42w9/+DQ==
+  dependencies:
+    path-type "^3.0.0"
+
 domexception@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/domexception/-/domexception-1.0.1.tgz#937442644ca6a31261ef36e3ec677fe805582c90"
@@ -2248,6 +2268,14 @@ get-installed-path@4.0.8:
   dependencies:
     global-modules "1.0.0"
 
+get-monorepo-packages@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/get-monorepo-packages/-/get-monorepo-packages-1.1.0.tgz#e0f61024ecdfb65bfc93e14dc4005c73a3315499"
+  integrity sha512-UGtCx1GOyGB2YRaT+0B2wsJjLflrFs58y4Yik0jXhp2dTI1vBSMKTDuR24iNDrXkoyGlx9kJ3tn0KNPonhuu0Q==
+  dependencies:
+    globby "^7.1.1"
+    load-json-file "^4.0.0"
+
 get-stream@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-3.0.0.tgz#8e943d1358dc37555054ecbe2edb05aa174ede14"
@@ -2391,6 +2419,18 @@ globals@^9.18.0:
   version "9.18.0"
   resolved "https://registry.yarnpkg.com/globals/-/globals-9.18.0.tgz#aa3896b3e69b487f17e31ed2143d69a8e30c2d8a"
   integrity sha512-S0nG3CLEQiY/ILxqtztTWH/3iRRdyBLw6KMDxnKMchrtbj2OFmehVh0WUCfW3DUrIgx/qFrJPICrq4Z4sTR9UQ==
+
+globby@^7.1.1:
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/globby/-/globby-7.1.1.tgz#fb2ccff9401f8600945dfada97440cca972b8680"
+  integrity sha1-+yzP+UAfhgCUXfral0QMypcrhoA=
+  dependencies:
+    array-union "^1.0.1"
+    dir-glob "^2.0.0"
+    glob "^7.1.2"
+    ignore "^3.3.5"
+    pify "^3.0.0"
+    slash "^1.0.0"
 
 got@9.5.0, got@^9.5.0:
   version "9.5.0"
@@ -2659,6 +2699,11 @@ ignore-walk@^3.0.1:
   integrity sha512-DTVlMx3IYPe0/JJcYP7Gxg7ttZZu3IInhuEhbchuqneY9wWe5Ojy2mXLBaQFUQmo0AW2r3qG7m1mg86js+gnlQ==
   dependencies:
     minimatch "^3.0.4"
+
+ignore@^3.3.5:
+  version "3.3.10"
+  resolved "https://registry.yarnpkg.com/ignore/-/ignore-3.3.10.tgz#0a97fb876986e8081c631160f8f9f389157f0043"
+  integrity sha512-Pgs951kaMm5GXP7MOvxERINe3gsaVjUWFm+UZPSq9xYriQAksyhg0csnS0KXSNRD5NmNdapXEpjxG49+AKh/ug==
 
 import-fresh@^2.0.0:
   version "2.0.0"
