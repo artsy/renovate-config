@@ -1,3 +1,11 @@
+# 1.4.0 (Mon Jan 14 2019)
+
+#### 🚀  Enhancement
+
+- Make all devDependency updates marked as trivial [#149](https://github.com/artsy/renovate-config/pull/149) ([@zephraph](https://github.com/zephraph))
+
+---
+
 # 1.3.16 (Mon Jan 14 2019)
 
 
