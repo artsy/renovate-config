@@ -42,6 +42,14 @@
             "auto-release-cli"
           ],
           "enabled": false
+        },
+        {
+          "depTypeList": [
+            "devDependencies"
+          ],
+          "labels": [
+            "Version: Trivial"
+          ]
         }
       ],
       "enabledManagers": [
