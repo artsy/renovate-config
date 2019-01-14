@@ -1997,10 +1997,10 @@ fast-safe-stringify@^1.1.3:
   resolved "https://registry.yarnpkg.com/fast-safe-stringify/-/fast-safe-stringify-1.2.3.tgz#9fe22c37fb2f7f86f06b8f004377dbf8f1ee7bc1"
   integrity sha512-QJYT/i0QYoiZBQ71ivxdyTqkwKkQ0oxACXHYxH2zYHJEgzi2LsbjgvtzTbLi1SZcF190Db2YP7I7eTsU2egOlw==
 
-fast-xml-parser@3.12.11:
-  version "3.12.11"
-  resolved "https://registry.yarnpkg.com/fast-xml-parser/-/fast-xml-parser-3.12.11.tgz#571475e3509cb9ac2c51d26cc99c6bf7809e66e3"
-  integrity sha512-j/GRVwLIDyv7y3L5JIAC7qOosoHzi1LdndN330vwIkb4lrHlKBPhQy27Tqg3GRds7TsrbzvVJPDFR6fweuhuXA==
+fast-xml-parser@3.12.12:
+  version "3.12.12"
+  resolved "https://registry.yarnpkg.com/fast-xml-parser/-/fast-xml-parser-3.12.12.tgz#f45b738f8283e42ecd193a8621de87108b4764b4"
+  integrity sha512-8fZ3+lyB36Yqxr5q4LT5T/0e9EU9IipstotFLin6EUsC1kN8iEy9wgBvie/hULX3p3YYjJxKQCf1J0UaB5jZPg==
   dependencies:
     nimnjs "^1.3.2"
 
@@ -5783,10 +5783,10 @@ remove-trailing-separator@^1.0.1:
   resolved "https://registry.yarnpkg.com/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz#c24bce2a283adad5bc3f58e0d48249b92379d8ef"
   integrity sha1-wkvOKig62tW8P1jg1IJJuSN52O8=
 
-renovate@13.174.9:
-  version "13.174.9"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-13.174.9.tgz#91c0774987f9990669814842133bb918963dab4e"
-  integrity sha512-t9i/cT8TCT+N3IL5nBVL85Wh/Db6g/J8rgi0fRZgI8cHK7ghhnpqLrGFF+CTMwWAgH2xAjIC33LM6/VzL3eIaw==
+renovate@13.175.0:
+  version "13.175.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-13.175.0.tgz#08fb2fe0688c9ba405b4709a11643f2a0e0362bc"
+  integrity sha512-gZDuWTsIdNYj3eqUcZqjMpNlg/sNGfoQeO1KciHkE/cbgXJFu9321RjOv5EE6purKCsMegKBh4ff5sKyQC+nXg==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@renovatebot/docker-registry-client" "3.3.0"
@@ -5809,7 +5809,7 @@ renovate@13.174.9:
     detect-indent "5.0.0"
     email-addresses "3.0.3"
     fast-clone "1.5.3"
-    fast-xml-parser "3.12.11"
+    fast-xml-parser "3.12.12"
     form-data "2.3.3"
     fs-extra "7.0.1"
     get-installed-path "4.0.8"
