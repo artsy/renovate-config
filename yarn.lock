@@ -105,6 +105,13 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
+"@szmarczak/http-timer@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@szmarczak/http-timer/-/http-timer-1.1.2.tgz#b1665e2c461a2cd92f4c1bbf50d5454de0d4b421"
+  integrity sha512-XIB2XbzHTN6ieIjfIMV9hlVcfPU26s2vafYWQcZHWXHOxiaRZYEDKEwdl129Zyg50+foYV2jCgtrqSA6qNuNSA==
+  dependencies:
+    defer-to-connect "^1.0.1"
+
 "@yarnpkg/lockfile@1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@yarnpkg/lockfile/-/lockfile-1.1.0.tgz#e77a97fbd345b76d83245edcd17d393b1b41fb31"
@@ -909,6 +916,19 @@ cacheable-request@^5.1.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/cacheable-request/-/cacheable-request-5.2.0.tgz#00c87097835af4caf92a97390660ecadce51187d"
   integrity sha512-h1n0vjpFaByTvU6PiyTKk2kx4OnuV1aVUynCUd/FiKl4icpPSceowk3rHczwFEBuZvz+E1EU4KExR0MCPeQfaQ==
+  dependencies:
+    clone-response "^1.0.2"
+    get-stream "^4.0.0"
+    http-cache-semantics "^4.0.0"
+    keyv "^3.0.0"
+    lowercase-keys "^1.0.1"
+    normalize-url "^3.1.0"
+    responselike "^1.0.2"
+
+cacheable-request@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/cacheable-request/-/cacheable-request-6.0.0.tgz#4a1727414e02ac4af82560c4da1b61daa3fa2b63"
+  integrity sha512-2N7AmszH/WPPpl5Z3XMw1HAP+8d+xugnKQAeKvxFZ/04dbT/CAznqwbl+7eSr3HkwdepNwtb2yx3CAMQWvG01Q==
   dependencies:
     clone-response "^1.0.2"
     get-stream "^4.0.0"
@@ -2343,10 +2363,10 @@ gitlog@^3.1.2:
     debug "^3.1.0"
     lodash.assign "^4.2.0"
 
-gl-got@9.0.2:
-  version "9.0.2"
-  resolved "https://registry.yarnpkg.com/gl-got/-/gl-got-9.0.2.tgz#8d631c321535b9fbe015e504b29dfd2e5c0e6a6a"
-  integrity sha512-TWEa8Px5YYeLECdB7oZSlte9rFzfpy57wDaEprqHV212ctBTDYKv1aiRFmlfv6J8L+NS6ZIqFwb/aKfF86o/9A==
+gl-got@9.0.3:
+  version "9.0.3"
+  resolved "https://registry.yarnpkg.com/gl-got/-/gl-got-9.0.3.tgz#ceddbbf71f09d9369d9179a35ca919ffb289259b"
+  integrity sha512-qT1Jx80DvD99G/gjG5ZHOEv9RS55mwyRakMhe4U4+BSvoTn0Mjjs01t7mRUHoB6TxaoublB2Bv0IYcXzOgKGrQ==
   dependencies:
     got "^9.2.0"
 
@@ -2432,14 +2452,14 @@ globby@^7.1.1:
     pify "^3.0.0"
     slash "^1.0.0"
 
-got@9.5.0, got@^9.5.0:
-  version "9.5.0"
-  resolved "https://registry.yarnpkg.com/got/-/got-9.5.0.tgz#6fd0312c6b694c0a11d9119d95fd7daed174eb49"
-  integrity sha512-N+4kb6i9t1lauJ4NwLVVoFVLxZNa6i+iivtNzCSVw7+bVbTXoq0qXctdd8i9rj3lrI0zDk5NGzcO4bfpEP6Uuw==
+got@9.5.1:
+  version "9.5.1"
+  resolved "https://registry.yarnpkg.com/got/-/got-9.5.1.tgz#9cd83c64978225790c5142fc4e492cdea01256ef"
+  integrity sha512-a6UC2YXj3UPQT3UOzCCovwna4WPpN/OBAiiPSUwQ9gFranGs8HQjidyRmen2esBVlauqLWDbMwSTFDtxYNUv+g==
   dependencies:
     "@sindresorhus/is" "^0.14.0"
-    "@szmarczak/http-timer" "^1.1.0"
-    cacheable-request "^5.1.0"
+    "@szmarczak/http-timer" "^1.1.2"
+    cacheable-request "^6.0.0"
     decompress-response "^3.3.0"
     duplexer3 "^0.1.4"
     get-stream "^4.1.0"
@@ -2472,6 +2492,23 @@ got@^9.2.0:
   integrity sha512-OyKOUg71IKvwb8Uj0KP6EN3+qVVvXmYsFznU1fnwUnKtDbZnwSlAi7muNlu4HhBfN9dImtlgg9e7H0g5qVdaeQ==
   dependencies:
     "@sindresorhus/is" "^0.12.0"
+    "@szmarczak/http-timer" "^1.1.0"
+    cacheable-request "^5.1.0"
+    decompress-response "^3.3.0"
+    duplexer3 "^0.1.4"
+    get-stream "^4.1.0"
+    lowercase-keys "^1.0.1"
+    mimic-response "^1.0.1"
+    p-cancelable "^1.0.0"
+    to-readable-stream "^1.0.0"
+    url-parse-lax "^3.0.0"
+
+got@^9.5.0:
+  version "9.5.0"
+  resolved "https://registry.yarnpkg.com/got/-/got-9.5.0.tgz#6fd0312c6b694c0a11d9119d95fd7daed174eb49"
+  integrity sha512-N+4kb6i9t1lauJ4NwLVVoFVLxZNa6i+iivtNzCSVw7+bVbTXoq0qXctdd8i9rj3lrI0zDk5NGzcO4bfpEP6Uuw==
+  dependencies:
+    "@sindresorhus/is" "^0.14.0"
     "@szmarczak/http-timer" "^1.1.0"
     cacheable-request "^5.1.0"
     decompress-response "^3.3.0"
@@ -5291,10 +5328,10 @@ pn@^1.1.0:
   resolved "https://registry.yarnpkg.com/pn/-/pn-1.1.0.tgz#e2f4cef0e219f463c179ab37463e4e1ecdccbafb"
   integrity sha512-2qHaIQr2VLRFoxe2nASzsV6ef4yOOH+Fi9FBOVH6cqeSgUnoyySPZkxzLuzd+RYOQTRpROA0ztTMqxROKSb/nA==
 
-pnpm@2.25.0:
-  version "2.25.0"
-  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-2.25.0.tgz#d648289eb97f4864efff7bd3a6c2810d8d7bac62"
-  integrity sha512-o665cbzHRt0MLJsgUHRYM+4JwsfRc/HY41ezcjnbL69Z3rW6sSJ1TYdL1UoxxHPFrxtAljdd5VAbwR4/huFDkg==
+pnpm@2.25.1:
+  version "2.25.1"
+  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-2.25.1.tgz#980ad5bd6a0011ea3c4ab2e470514c3a97f840a1"
+  integrity sha512-VlDIaWSEQJuIQOFzhcg4YQ7enQMrJHb11eUclMj1VxIOxCZX51e/EDu+PZ0IO/4iQsgifiVoQcBbacBKi55jDA==
 
 posix-character-classes@^0.1.0:
   version "0.1.1"
@@ -5783,10 +5820,10 @@ remove-trailing-separator@^1.0.1:
   resolved "https://registry.yarnpkg.com/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz#c24bce2a283adad5bc3f58e0d48249b92379d8ef"
   integrity sha1-wkvOKig62tW8P1jg1IJJuSN52O8=
 
-renovate@13.175.2:
-  version "13.175.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-13.175.2.tgz#c2f6ba874ab77e1ce93888b3fe83174d9c5200bd"
-  integrity sha512-cVSeJ/dRVIUW6pzLxR8BrO4M1JkF/DH2mLUpUPw4TCkAocvqHYd+d+ci1iJ54MV70S6YFUIIxOYx8WQJvktazQ==
+renovate@13.175.6:
+  version "13.175.6"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-13.175.6.tgz#337835dc7ead4db4abf5ab8f67870c33c947dd28"
+  integrity sha512-tceIZwRvRtAEFEITNg15W7dsM9bOYlV2qAtT5hSRJla+p9Bo4tzxLO45CTsxBU282gPqM0lxNngcAs4WEhmabw==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@renovatebot/docker-registry-client" "3.3.0"
@@ -5815,8 +5852,8 @@ renovate@13.175.2:
     get-installed-path "4.0.8"
     gh-got "8.1.0"
     github-url-from-git "1.5.0"
-    gl-got "9.0.2"
-    got "9.5.0"
+    gl-got "9.0.3"
+    got "9.5.1"
     handlebars "4.0.12"
     ini "1.3.5"
     js-yaml "3.12.0"
@@ -5835,7 +5872,7 @@ renovate@13.175.2:
     p-all "1.0.0"
     parse-diff "0.5.1"
     parse-link-header "1.0.1"
-    pnpm "2.25.0"
+    pnpm "2.25.1"
     proxy-agent "3.0.3"
     registry-auth-token "3.3.2"
     root-require "0.3.1"
