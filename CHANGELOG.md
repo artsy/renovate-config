@@ -1,3 +1,13 @@
+# 1.5.1 (Tue Jan 15 2019)
+
+#### 🏠  Internal
+
+- Make trivial considered an internal change [#158](https://github.com/artsy/renovate-config/pull/158) ([@zephraph](https://github.com/zephraph))
+- Remove auto-release-cli as a dependency [#157](https://github.com/artsy/renovate-config/pull/157) ([@zephraph](https://github.com/zephraph))
+- Update yarn orb to v0.1.0 [#156](https://github.com/artsy/renovate-config/pull/156) ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # 1.5.0 (Tue Jan 15 2019)
 
 #### 🚀  Enhancement
