@@ -1,3 +1,11 @@
+# 1.5.0 (Tue Jan 15 2019)
+
+#### 🚀  Enhancement
+
+- Remove automatic updating of auto-release-cli [#154](https://github.com/artsy/renovate-config/pull/154) ([@zephraph](https://github.com/zephraph))
+
+---
+
 # 1.4.1 (Tue Jan 15 2019)
 
 
