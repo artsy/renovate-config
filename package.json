@@ -38,9 +38,6 @@
           "excludePackagePatterns": [
             "^@artsy"
           ],
-          "excludePackageNames": [
-            "auto-release-cli"
-          ],
           "enabled": false
         },
         {
