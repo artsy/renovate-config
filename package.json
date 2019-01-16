@@ -46,7 +46,8 @@
         },
         {
           "depTypeList": [
-            "devDependencies"
+            "devDependencies",
+            "orb"
           ],
           "labels": [
             "Version: Trivial"
