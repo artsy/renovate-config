@@ -58,6 +58,9 @@
         "npm",
         "circleci"
       ],
+      "ignoreDeps": [
+        "artsy/hokusai"
+      ],
       "vulnerabilityAlerts": {
         "enabled": false
       },
