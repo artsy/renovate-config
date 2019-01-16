@@ -45,6 +45,18 @@
           "enabled": false
         },
         {
+          "managers": [
+            "npm"
+          ],
+          "depTypeList": [
+            "engines"
+          ],
+          "packagePatterns": [
+            "*"
+          ],
+          "enabled": false
+        },
+        {
           "depTypeList": [
             "devDependencies",
             "orb"
