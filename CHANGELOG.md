@@ -1,3 +1,11 @@
+# 1.5.4 (Wed Jan 16 2019)
+
+#### 🐛  Bug Fix
+
+- Explicitly ignore artsy/hokusai in circleci config [#162](https://github.com/artsy/renovate-config/pull/162) ([@zephraph](https://github.com/zephraph))
+
+---
+
 # 1.5.3 (Wed Jan 16 2019)
 
 #### 🐛  Bug Fix
