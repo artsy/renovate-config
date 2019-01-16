@@ -24,4 +24,3 @@ workflows:
           requires:
             - yarn/update-cache
             - yarn/test
-            - yarn/auto-pr-check
