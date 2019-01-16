@@ -1,3 +1,11 @@
+# 1.5.5 (Wed Jan 16 2019)
+
+#### 🐛  Bug Fix
+
+- Ignore engine updates [#163](https://github.com/artsy/renovate-config/pull/163) ([@zephraph](https://github.com/zephraph))
+
+---
+
 # 1.5.4 (Wed Jan 16 2019)
 
 #### 🐛  Bug Fix
