@@ -1,3 +1,11 @@
+# 1.5.3 (Wed Jan 16 2019)
+
+#### 🐛  Bug Fix
+
+- Ensure Orb updates are treated as trivial [#161](https://github.com/artsy/renovate-config/pull/161) ([@zephraph](https://github.com/zephraph))
+
+---
+
 # 1.5.2 (Wed Jan 16 2019)
 
 #### 🐛  Bug Fix
