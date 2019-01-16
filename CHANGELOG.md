@@ -1,3 +1,15 @@
+# 1.5.2 (Wed Jan 16 2019)
+
+#### 🐛  Bug Fix
+
+- Include peerDependencies in node package updates [#160](https://github.com/artsy/renovate-config/pull/160) ([@zephraph](https://github.com/zephraph))
+
+#### 🏠  Internal
+
+- Don't deploy trivial changes [#159](https://github.com/artsy/renovate-config/pull/159) ([@zephraph](https://github.com/zephraph))
+
+---
+
 # 1.5.1 (Tue Jan 15 2019)
 
 #### 🏠  Internal
