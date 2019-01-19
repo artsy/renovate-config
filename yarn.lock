@@ -4925,10 +4925,10 @@ pn@^1.1.0:
   resolved "https://registry.yarnpkg.com/pn/-/pn-1.1.0.tgz#e2f4cef0e219f463c179ab37463e4e1ecdccbafb"
   integrity sha512-2qHaIQr2VLRFoxe2nASzsV6ef4yOOH+Fi9FBOVH6cqeSgUnoyySPZkxzLuzd+RYOQTRpROA0ztTMqxROKSb/nA==
 
-pnpm@2.25.1:
-  version "2.25.1"
-  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-2.25.1.tgz#980ad5bd6a0011ea3c4ab2e470514c3a97f840a1"
-  integrity sha512-VlDIaWSEQJuIQOFzhcg4YQ7enQMrJHb11eUclMj1VxIOxCZX51e/EDu+PZ0IO/4iQsgifiVoQcBbacBKi55jDA==
+pnpm@2.25.2:
+  version "2.25.2"
+  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-2.25.2.tgz#a14ea8b5c769ec55ffa0407534ea241b2c9520ed"
+  integrity sha512-DB1IFfFf4bxb2nVveQ+Xi4KXO/5uR/53w6GCBRWaej0SZnrHeK+6Lp+/dh0S3THMnX88TJLniTOkAUBco2AItA==
 
 posix-character-classes@^0.1.0:
   version "0.1.1"
@@ -5405,10 +5405,10 @@ remove-trailing-separator@^1.0.1:
   resolved "https://registry.yarnpkg.com/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz#c24bce2a283adad5bc3f58e0d48249b92379d8ef"
   integrity sha1-wkvOKig62tW8P1jg1IJJuSN52O8=
 
-renovate@13.175.10:
-  version "13.175.10"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-13.175.10.tgz#5a49b14f0b5537339cda8c41db9c7fac27401777"
-  integrity sha512-e1g4e+EZOuQ3h6mvdN1P5qrIRMqHTuO+cEG6/fDcthSD8kMMJERberhmg1FOgOmgM9zMszahy92La3fEldOFaQ==
+renovate@13.175.12:
+  version "13.175.12"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-13.175.12.tgz#618c45cab54b870689385a8b1f7415df5dc305da"
+  integrity sha512-qvK+cTRVST8O4uqfYGZ2acOS06C3Clpq1MAuKUv0ipmwsvpVwMaKjZcDp9rACoa5e2ZN7ERFPIlEqBa7/lRNbg==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@renovatebot/docker-registry-client" "3.3.0"
@@ -5456,7 +5456,7 @@ renovate@13.175.10:
     p-all "1.0.0"
     parse-diff "0.5.1"
     parse-link-header "1.0.1"
-    pnpm "2.25.1"
+    pnpm "2.25.2"
     proxy-agent "3.0.3"
     registry-auth-token "3.3.2"
     root-require "0.3.1"
@@ -5470,7 +5470,7 @@ renovate@13.175.10:
     tomlify-j0.4 "3.0.0"
     traverse "0.6.6"
     upath "1.1.0"
-    validator "10.9.0"
+    validator "10.11.0"
     www-authenticate "0.6.2"
     xmldoc "1.1.2"
     yarn "1.9.4"
@@ -6678,10 +6678,10 @@ validate-npm-package-name@^3.0.0, validate-npm-package-name@~3.0.0:
   dependencies:
     builtins "^1.0.3"
 
-validator@10.9.0:
-  version "10.9.0"
-  resolved "https://registry.yarnpkg.com/validator/-/validator-10.9.0.tgz#d10c11673b5061fb7ccf4c1114412411b2bac2a8"
-  integrity sha512-hZJcZSWz9poXBlAkjjcsNAdrZ6JbjD3kWlNjq/+vE7RLLS/+8PAj3qVVwrwsOz/WL8jPmZ1hYkRvtlUeZAm4ug==
+validator@10.11.0:
+  version "10.11.0"
+  resolved "https://registry.yarnpkg.com/validator/-/validator-10.11.0.tgz#003108ea6e9a9874d31ccc9e5006856ccd76b228"
+  integrity sha512-X/p3UZerAIsbBfN/IwahhYaBbY68EN/UQBWHtsbXGT5bfrH/p4NQzUCG1kF/rtKaNpnJ7jAu6NGTdSNtyNIXMw==
 
 "vasync@1.x >=1.6.1":
   version "1.6.4"
