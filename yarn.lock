@@ -2344,6 +2344,11 @@ hash.js@^1.0.0:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.1"
 
+he@1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/he/-/he-1.1.1.tgz#93410fd21b009735151f8868c2f271f3427e23fd"
+  integrity sha1-k0EP0hsAlzUVH4howvJx80J+I/0=
+
 home-or-tmp@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/home-or-tmp/-/home-or-tmp-2.0.0.tgz#e36c3f2d2cae7d746a857e38d18d5f32a7882db8"
@@ -4273,6 +4278,13 @@ node-gyp@^3.8.0:
     tar "^2.0.0"
     which "1"
 
+node-html-parser@1.1.12:
+  version "1.1.12"
+  resolved "https://registry.yarnpkg.com/node-html-parser/-/node-html-parser-1.1.12.tgz#dc345411496a7bb4313ad41ae044df5d4cd7220b"
+  integrity sha512-tS8QkN91I4LXPnCOXsMuD+q9/3k5K3ltzASKzrj1g6fkNeE0bHE3DYCtt/F9oC+z1Rrl16N9AHleMEY8R0v8jw==
+  dependencies:
+    he "1.1.1"
+
 node-int64@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/node-int64/-/node-int64-0.4.0.tgz#87a9065cdb355d3182d8f94ce11188b825c68a3b"
@@ -5521,10 +5533,10 @@ remove-trailing-separator@^1.0.1:
   resolved "https://registry.yarnpkg.com/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz#c24bce2a283adad5bc3f58e0d48249b92379d8ef"
   integrity sha1-wkvOKig62tW8P1jg1IJJuSN52O8=
 
-renovate@13.177.2:
-  version "13.177.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-13.177.2.tgz#4b4082915311a2661f056879e2b549f777bfdafd"
-  integrity sha512-roOkzkAYMNwxS6CD2oxxm6Sfms3npq0sNADEtM8sxkVX4my6+uvWCl2RroNtMEjZpJfLyfI53mFAfJLs2M9zzg==
+renovate@13.178.0:
+  version "13.178.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-13.178.0.tgz#a32de762b50b414889c3dcb4895a13e88733138f"
+  integrity sha512-5y66BJt3zVvazCLJIJKC/Cw10aFCi8+HXzUDQ2l7xz19HMVQoXw4FLmlNIxLTasv+7PlbPLMGxb2mTahSwa3Cg==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@renovatebot/docker-registry-client" "3.3.0"
@@ -5567,6 +5579,7 @@ renovate@13.177.2:
     minimatch "3.0.4"
     moment "2.23.0"
     moment-timezone "0.5.23"
+    node-html-parser "1.1.12"
     npm "6.6.0"
     openpgp "2.6.2"
     p-all "1.0.0"
