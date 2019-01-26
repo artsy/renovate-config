@@ -65,6 +65,15 @@
           "labels": [
             "Version: Trivial"
           ]
+        },
+        {
+          "packageNames": ["yarn"],
+          "depTypeList": ["orb"],
+          "automerge": true
+        },
+        {
+          "packageNames": ["@artsy/auto-config"],
+          "automerge": true
         }
       ],
       "enabledManagers": [
