@@ -69,11 +69,17 @@
         {
           "packageNames": ["yarn"],
           "depTypeList": ["orb"],
-          "automerge": true
+          "automerge": true,
+          "major": {
+            "automerge": false
+          }
         },
         {
           "packageNames": ["@artsy/auto-config"],
-          "automerge": true
+          "automerge": true,
+          "major": {
+            "automerge": false
+          }
         }
       ],
       "enabledManagers": [
