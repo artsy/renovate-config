@@ -1,3 +1,11 @@
+# v1.6.0 (Sat Jan 26 2019)
+
+#### undefined
+
+- Automerge auto config and yarn orb [#196](https://github.com/artsy/renovate-config/pull/196) ([@zephraph](https://github.com/zephraph))
+
+---
+
 # v1.5.14 (Fri Jan 25 2019)
 
 
