@@ -5304,10 +5304,10 @@ remove-trailing-separator@^1.0.1:
   resolved "https://registry.yarnpkg.com/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz#c24bce2a283adad5bc3f58e0d48249b92379d8ef"
   integrity sha1-wkvOKig62tW8P1jg1IJJuSN52O8=
 
-renovate@14.3.17:
-  version "14.3.17"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-14.3.17.tgz#6724b5494098a404c46ebeb99fd5cf24e519822b"
-  integrity sha512-bZRADSat2Qm8jCHqOe5VDyFSkop4fB5ch+yBi+Moi7PgIDIu4MMfZKTZxinFWnLh5/kwPbb+U7/0vix1sdhK+g==
+renovate@14.3.18:
+  version "14.3.18"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-14.3.18.tgz#2732db7fc826697a1854568115afbf9d68dd0cf9"
+  integrity sha512-Ojb7hK6POIYXXtp3Vn9fgJhkhN/j4Y4iBOixICDPtbvGBilTs5kVS6pSwcO4FVRA0MG9tyVvmDA+NowKI013hw==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@renovatebot/docker-registry-client" "3.3.0"
@@ -5370,6 +5370,7 @@ renovate@14.3.17:
     tomlify-j0.4 "3.0.0"
     traverse "0.6.6"
     upath "1.1.0"
+    validate-npm-package-name "3.0.0"
     validator "10.11.0"
     www-authenticate "0.6.2"
     xmldoc "1.1.2"
@@ -6550,7 +6551,7 @@ validate-npm-package-license@^3.0.1, validate-npm-package-license@^3.0.4:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
-validate-npm-package-name@^3.0.0, validate-npm-package-name@~3.0.0:
+validate-npm-package-name@3.0.0, validate-npm-package-name@^3.0.0, validate-npm-package-name@~3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/validate-npm-package-name/-/validate-npm-package-name-3.0.0.tgz#5fa912d81eb7d0c74afc140de7317f0ca7df437e"
   integrity sha1-X6kS2B630MdK/BQN5zF/DKffQ34=
