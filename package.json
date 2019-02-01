@@ -20,7 +20,7 @@
   "devDependencies": {
     "@artsy/auto-config": "0.0.8",
     "jest": "24.0.0",
-    "renovate": "14.5.0"
+    "renovate": "14.6.0"
   },
   "renovate-config": {
     "default": {
