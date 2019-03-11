@@ -1911,11 +1911,6 @@ extsprintf@^1.2.0:
   resolved "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.4.0.tgz#e2689f8f356fad62cca65a3a91c5df5f9551692f"
   integrity sha1-4mifjzVvrWLMplo6kcXfX5VRaS8=
 
-fast-clone@1.5.8:
-  version "1.5.8"
-  resolved "https://registry.yarnpkg.com/fast-clone/-/fast-clone-1.5.8.tgz#87ed8f6bc1e5cd8738eaf9d189991be9b3291684"
-  integrity sha512-E15CBWWjMIw4hknPTemU/Pbm/0U8rPavQ30BYP/q8iQLWSRblnHClvWC/UVs17470d/6Z4uJ9EAGVAdcJVInNw==
-
 fast-deep-equal@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-2.0.1.tgz#7b05218ddf9667bf7f370bf7fdb2cb15fdd0aa49"
@@ -5632,10 +5627,10 @@ remove-trailing-separator@^1.0.1:
   resolved "https://registry.yarnpkg.com/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz#c24bce2a283adad5bc3f58e0d48249b92379d8ef"
   integrity sha1-wkvOKig62tW8P1jg1IJJuSN52O8=
 
-renovate@14.46.0:
-  version "14.46.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-14.46.0.tgz#aa1d6fbb9407cdb71547c93495205e08a0805138"
-  integrity sha512-zXq/DMFq+FBo/noKh09kZTJ1xrtQbdT1u2OrMlCKh7Er0vKHJBWVx+kT8KadVK3vuaMc0jfhgJXR++LtMLjNGA==
+renovate@14.46.3:
+  version "14.46.3"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-14.46.3.tgz#b698ca31c97726c837bc43a7aa42c8df54d1dc69"
+  integrity sha512-2olGN7ic+jW9e1rLgC6DlmPgL38AKKzb7TM2w3VXLxqhL3iA1K6750oV5jvnBoaCkB9+UTm0yeGVz4LcAfOpaQ==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@renovatebot/docker-registry-client" "3.3.0"
@@ -5656,7 +5651,6 @@ renovate@14.46.0:
     delay "4.1.0"
     detect-indent "5.0.0"
     email-addresses "3.0.3"
-    fast-clone "1.5.8"
     form-data "2.3.3"
     fs-extra "7.0.1"
     get-installed-path "4.0.8"
@@ -5696,7 +5690,7 @@ renovate@14.46.0:
     toml "3.0.0"
     tomlify-j0.4 "3.0.0"
     traverse "0.6.6"
-    upath "1.1.1"
+    upath "1.1.2"
     validate-npm-package-name "3.0.0"
     validator "10.11.0"
     www-authenticate "0.6.2"
@@ -6788,10 +6782,10 @@ unzip-response@^2.0.1:
   resolved "https://registry.yarnpkg.com/unzip-response/-/unzip-response-2.0.1.tgz#d2f0f737d16b0615e72a6935ed04214572d56f97"
   integrity sha1-0vD3N9FrBhXnKmk17QQhRXLVb5c=
 
-upath@1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/upath/-/upath-1.1.1.tgz#497f7c1090b0818f310bbfb06783586a68d28014"
-  integrity sha512-D0yetkpIOKiZQquxjM2Syvy48Y1DbZ0SWxgsZiwd9GCWRpc75vN8ytzem14WDSg+oiX6+Qt31FpiS/ExODCrLg==
+upath@1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/upath/-/upath-1.1.2.tgz#3db658600edaeeccbe6db5e684d67ee8c2acd068"
+  integrity sha512-kXpym8nmDmlCBr7nKdIx8P2jNBa+pBpIUFRnKJ4dr8htyYGJFokkr2ZvERRtUN+9SY+JqXouNgUPtv6JQva/2Q==
 
 update-notifier@^2.3.0, update-notifier@^2.5.0:
   version "2.5.0"
