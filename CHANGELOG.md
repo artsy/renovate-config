@@ -1,3 +1,42 @@
+# v1.7.1 (Mon Mar 18 2019)
+
+#### 🐛  Bug Fix
+
+- Remove dedupe process from renovate [#338](https://github.com/artsy/renovate-config/pull/338) ([@zephraph](https://github.com/zephraph))
+
+#### 🏠  Internal
+
+- Update dependency renovate to v14.53.12 [#337](https://github.com/artsy/renovate-config/pull/337) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v14.53.11 [#336](https://github.com/artsy/renovate-config/pull/336) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v14.53.9 [#335](https://github.com/artsy/renovate-config/pull/335) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v14.53.6 [#334](https://github.com/artsy/renovate-config/pull/334) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v14.53.5 [#333](https://github.com/artsy/renovate-config/pull/333) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v14.53.3 [#332](https://github.com/artsy/renovate-config/pull/332) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v14.53.1 [#331](https://github.com/artsy/renovate-config/pull/331) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v14.53.0 [#330](https://github.com/artsy/renovate-config/pull/330) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v14.52.3 [#329](https://github.com/artsy/renovate-config/pull/329) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v14.51.0 [#328](https://github.com/artsy/renovate-config/pull/328) ([@renovate-bot](https://github.com/renovate-bot))
+- Update yarn orb to v0.2.0 [#327](https://github.com/artsy/renovate-config/pull/327) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v14.50.3 [#326](https://github.com/artsy/renovate-config/pull/326) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v14.50.0 [#325](https://github.com/artsy/renovate-config/pull/325) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v14.48.1 [#324](https://github.com/artsy/renovate-config/pull/324) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v14.48.0 [#323](https://github.com/artsy/renovate-config/pull/323) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v14.47.3 [#322](https://github.com/artsy/renovate-config/pull/322) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency jest to v24.5.0 [#321](https://github.com/artsy/renovate-config/pull/321) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v14.47.1 [#320](https://github.com/artsy/renovate-config/pull/320) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v14.46.3 [#319](https://github.com/artsy/renovate-config/pull/319) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v14.46.0 [#318](https://github.com/artsy/renovate-config/pull/318) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency jest to v24.4.0 [#317](https://github.com/artsy/renovate-config/pull/317) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v14.45.4 [#316](https://github.com/artsy/renovate-config/pull/316) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v14.45.3 [#315](https://github.com/artsy/renovate-config/pull/315) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 2
+
+- Justin Bennett ([@zephraph](https://github.com/zephraph))
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v1.7.0 (Mon Mar 11 2019)
 
 #### 🚀  Enhancement
