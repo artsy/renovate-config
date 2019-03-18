@@ -92,9 +92,6 @@
         "npm",
         "circleci"
       ],
-      "postUpdateOptions": [
-        "yarnDedupeHighest"
-      ],
       "ignoreDeps": [
         "artsy/hokusai"
       ],
