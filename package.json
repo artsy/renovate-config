@@ -23,6 +23,31 @@
     "renovate": "16.5.4"
   },
   "renovate-config": {
+    "approval": {
+      "extends": [
+        "@artsy"
+      ],
+      "packageRules": [
+        {
+          "managers": [
+            "npm"
+          ],
+          "depTypeList": [
+            "dependencies",
+            "devDependencies",
+            "peerDependencies"
+          ],
+          "packagePatterns": [
+            "*"
+          ],
+          "excludePackagePatterns": [
+            "^@artsy"
+          ],
+          "enabled": true,
+          "masterIssueApproval": true
+        }
+      ]
+    },
     "default": {
       "extends": [
         "config:base"
