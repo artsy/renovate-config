@@ -1,3 +1,20 @@
+# v1.8.1 (Fri Apr 26 2019)
+
+#### 🐛  Bug Fix
+
+- Make approval workflow duplicate of default [#426](https://github.com/artsy/renovate-config/pull/426) ([@zephraph](https://github.com/zephraph))
+
+#### 🏠  Internal
+
+- Update dependency renovate to v16.6.2 [#425](https://github.com/artsy/renovate-config/pull/425) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 2
+
+- Justin Bennett ([@zephraph](https://github.com/zephraph))
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v1.8.0 (Fri Apr 26 2019)
 
 #### 🚀  Enhancement
