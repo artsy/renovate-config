@@ -24,8 +24,8 @@
   },
   "renovate-config": {
     "approval": {
-      "extends": [
-        "@artsy"
+     "extends": [
+        "config:base"
       ],
       "packageRules": [
         {
@@ -45,8 +45,65 @@
           ],
           "enabled": true,
           "masterIssueApproval": true
+        },
+        {
+          "managers": [
+            "npm"
+          ],
+          "depTypeList": [
+            "engines"
+          ],
+          "packagePatterns": [
+            "*"
+          ],
+          "enabled": false
+        },
+        {
+          "depTypeList": [
+            "devDependencies",
+            "orb"
+          ],
+          "labels": [
+            "Version: Trivial"
+          ]
+        },
+        {
+          "packageNames": [
+            "yarn"
+          ],
+          "depTypeList": [
+            "orb"
+          ],
+          "automerge": true,
+          "major": {
+            "automerge": false
+          }
+        },
+        {
+          "packageNames": [
+            "@artsy/auto-config"
+          ],
+          "automerge": true,
+          "major": {
+            "automerge": false
+          }
         }
-      ]
+      ],
+      "enabledManagers": [
+        "npm",
+        "circleci"
+      ],
+      "ignoreDeps": [
+        "artsy/hokusai"
+      ],
+      "vulnerabilityAlerts": {
+        "enabled": false
+      },
+      "prHourlyLimit": 0,
+      "prBodyNotes": [
+        "See full list of changes [here]({{sourceUrl}}/compare/v{{currentValue}}...v{{newValue}})."
+      ],
+      "timezone": "America/New_York"
     },
     "default": {
       "extends": [
