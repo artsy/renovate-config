@@ -12,7 +12,7 @@
   "bugs": {
     "url": "https://github.com/artsy/renovate-config/issues"
   },
-  "version": "1.8.0",
+  "version": "1.8.1",
   "scripts": {
     "release": "auto shipit",
     "test": "jest"
@@ -24,7 +24,7 @@
   },
   "renovate-config": {
     "approval": {
-     "extends": [
+      "extends": [
         "config:base"
       ],
       "packageRules": [
