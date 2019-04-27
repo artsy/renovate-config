@@ -5690,10 +5690,10 @@ remove-trailing-separator@^1.0.1:
   resolved "https://registry.yarnpkg.com/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz#c24bce2a283adad5bc3f58e0d48249b92379d8ef"
   integrity sha1-wkvOKig62tW8P1jg1IJJuSN52O8=
 
-renovate@16.6.2:
-  version "16.6.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-16.6.2.tgz#c1917b5bd9ea39605a238e5803deb05910765c88"
-  integrity sha512-seaF9wMM0W33vQyaVZ1qnXpsZPr08lDoG/KoEepzaAlgl9kisACQOK+YhbNcQMC0mU1FTSIgdWBOWlEu9lTCbA==
+renovate@16.6.3:
+  version "16.6.3"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-16.6.3.tgz#9cb3a85c7bd23d43f844d6fdeedcd3762410bc81"
+  integrity sha512-dsSpU2vCAx6FmI9FkYjGyRkWy+R5hW2vOagcdq/33dyVOHclY5Dsi1n0k3Nl0tewVGDwyYWm7vJbpuSzv51RtQ==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@renovatebot/docker-registry-client" "3.3.0"
@@ -5746,7 +5746,7 @@ renovate@16.6.2:
     registry-auth-token "3.3.2"
     root-require "0.3.1"
     safe-regex "2.0.2"
-    semver "5.7.0"
+    semver "6.0.0"
     semver-stable "2.0.4"
     semver-utils "1.1.4"
     simple-git "1.110.0"
@@ -6035,7 +6035,12 @@ semver-utils@1.1.4:
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.6.0.tgz#7e74256fbaa49c75aa7c7a205cc22799cac80004"
   integrity sha512-RS9R6R35NYgQn++fkDWaOmqGoj4Ek9gGs+DPxNUZKuwE183xjJroKvyo1IzVFeXvUrvmALy6FWD5xrdJT25gMg==
 
-semver@5.7.0, semver@^5.3.0:
+semver@6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-6.0.0.tgz#05e359ee571e5ad7ed641a6eec1e547ba52dea65"
+  integrity sha512-0UewU+9rFapKFnlbirLi3byoOuhrSsli/z/ihNnvM24vgF+8sNBiI1LZPBSH9wJKUwaUbw+s3hToDLCXkrghrQ==
+
+semver@^5.3.0:
   version "5.7.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.7.0.tgz#790a7cf6fea5459bac96110b29b60412dc8ff96b"
   integrity sha512-Ya52jSX2u7QKghxeoFGpLwCtGlt7j0oY9DYb5apt9nPlJ42ID+ulTXESnt/qAQcoSERyZ5sl3LDIOw0nAn/5DA==
