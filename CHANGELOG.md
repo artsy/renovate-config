@@ -1,3 +1,20 @@
+# v1.8.2 (Sat Apr 27 2019)
+
+#### 🐛  Bug Fix
+
+- Add masterIssue to attempt to force masterIssueApproval [#428](https://github.com/artsy/renovate-config/pull/428) ([@zephraph](https://github.com/zephraph))
+
+#### 🏠  Internal
+
+- Update dependency renovate to v16.6.3 [#427](https://github.com/artsy/renovate-config/pull/427) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 2
+
+- Justin Bennett ([@zephraph](https://github.com/zephraph))
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v1.8.1 (Fri Apr 26 2019)
 
 #### 🐛  Bug Fix
