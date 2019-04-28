@@ -23,14 +23,42 @@
     "deepmerge": "^3.2.0",
     "husky": "^2.1.0",
     "jest": "24.7.1",
-    "lint-staged": "^8.1.5",
     "renovate": "16.6.3"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn generate-config && git add package.json"
+    }
+  },
   "renovate-config": {
-    "approval": {
+    "app": {
       "extends": [
-        "config:base"
+        ":pinAllExceptPeerDependencies",
+        "@artsy:shared"
+      ]
+    },
+    "lib": {
+      "extends": [
+        ":pinOnlyDevDependencies",
+        "@artsy:shared"
+      ]
+    },
+    "shared": {
+      "extends": [
+        ":disableRateLimiting"
       ],
+      "enabledManagers": [
+        "npm",
+        "circleci"
+      ],
+      "ignoreDeps": [
+        "artsy/hokusai"
+      ],
+      "timezone": "America/New_York",
+      "prBodyNotes": [
+        "See full list of changes [here]({{sourceUrl}}/compare/v{{currentValue}}...v{{newValue}})."
+      ],
+      "commitMessageExtra": "from {{{currentVersion}}} to {{#if isMajor}}v{{{newMajor}}}{{else}}{{#if isSingleVersion}}v{{{toVersion}}}{{else}}{{{newValue}}}{{/if}}{{/if}}",
       "masterIssue": true,
       "packageRules": [
         {
@@ -93,22 +121,7 @@
             "automerge": false
           }
         }
-      ],
-      "enabledManagers": [
-        "npm",
-        "circleci"
-      ],
-      "ignoreDeps": [
-        "artsy/hokusai"
-      ],
-      "vulnerabilityAlerts": {
-        "enabled": false
-      },
-      "prHourlyLimit": 0,
-      "prBodyNotes": [
-        "See full list of changes [here]({{sourceUrl}}/compare/v{{currentValue}}...v{{newValue}})."
-      ],
-      "timezone": "America/New_York"
+      ]
     },
     "default": {
       "extends": [

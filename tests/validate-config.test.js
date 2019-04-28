@@ -1,5 +1,6 @@
 const { initLogger } = require("renovate/lib/logger");
 const { migrateAndValidate } = require("renovate/lib/config/migrate-validate");
+const { getCommitMessageExtraDefault } = require("../lib/config-builder");
 
 initLogger();
 
@@ -38,5 +39,15 @@ describe("renovate.json", () => {
     const { errors, warnings } = await migrateAndValidate({}, config);
     expect(errors).toEqual([]);
     expect(warnings).toEqual([]);
+  });
+});
+
+describe("generate-config", () => {
+  describe("getCommitMessageExtraDefault()", () => {
+    let message;
+    expect(() => {
+      message = getCommitMessageExtraDefault();
+    }).not.toThrow();
+    expect(message).toBeDefined();
   });
 });
