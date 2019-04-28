@@ -1,3 +1,15 @@
+# v1.9.0 (Sun Apr 28 2019)
+
+#### 🚀  Enhancement
+
+- Add app & lib presets [#429](https://github.com/artsy/renovate-config/pull/429) ([@zephraph](https://github.com/zephraph))
+
+#### Authors: 1
+
+- Justin Bennett ([@zephraph](https://github.com/zephraph))
+
+---
+
 # v1.8.2 (Sat Apr 27 2019)
 
 #### 🐛  Bug Fix
