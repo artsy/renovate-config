@@ -15,7 +15,8 @@
   "version": "1.8.2",
   "scripts": {
     "release": "auto shipit",
-    "test": "jest"
+    "test": "jest",
+    "generate-config": "node lib/generate-config.js"
   },
   "devDependencies": {
     "@artsy/auto-config": "^0.1.0",
