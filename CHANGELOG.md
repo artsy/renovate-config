@@ -1,3 +1,23 @@
+# v1.9.1 (Sun Apr 28 2019)
+
+#### 🐛  Bug Fix
+
+- Remove global master issue flag as it's no longer needed [#434](https://github.com/artsy/renovate-config/pull/434) ([@zephraph](https://github.com/zephraph))
+
+#### 🏠  Internal
+
+- Update dependency renovate to v16.7.4 [#433](https://github.com/artsy/renovate-config/pull/433) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v16.7.1 [#432](https://github.com/artsy/renovate-config/pull/432) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v16.7.0 [#431](https://github.com/artsy/renovate-config/pull/431) ([@renovate-bot](https://github.com/renovate-bot))
+- Pin dependencies [#430](https://github.com/artsy/renovate-config/pull/430) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 2
+
+- Justin Bennett ([@zephraph](https://github.com/zephraph))
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v1.9.0 (Sun Apr 28 2019)
 
 #### 🚀  Enhancement
