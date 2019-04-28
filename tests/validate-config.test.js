@@ -1,6 +1,6 @@
 const { initLogger } = require("renovate/lib/logger");
 const { migrateAndValidate } = require("renovate/lib/config/migrate-validate");
-const { getCommitMessageExtraDefault } = require("../lib/config-builder");
+const { getCommitMessageExtraDefault, configs } = require("../lib/config-builder");
 
 initLogger();
 
@@ -29,6 +29,10 @@ describe("@artsy/renovate-config", () => {
       const { errors, warnings } = await migrateAndValidate({}, config);
       expect(errors).toEqual([]);
       expect(warnings).toEqual([]);
+    });
+
+    it(`${name} matches generated config`, () => {
+      expect(renovateConfig[name]).toEqual(configs[name]);
     });
   }
 });
