@@ -1,3 +1,15 @@
+# v1.10.0 (Mon Apr 29 2019)
+
+#### 🚀  Enhancement
+
+- Automerge minors on issue approvals [#435](https://github.com/artsy/renovate-config/pull/435) ([@zephraph](https://github.com/zephraph))
+
+#### Authors: 1
+
+- Justin Bennett ([@zephraph](https://github.com/zephraph))
+
+---
+
 # v1.9.1 (Sun Apr 28 2019)
 
 #### 🐛  Bug Fix
