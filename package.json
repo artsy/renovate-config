@@ -76,7 +76,11 @@
           "excludePackagePatterns": [
             "^@artsy"
           ],
-          "masterIssueApproval": true
+          "masterIssueApproval": true,
+          "automerge": true,
+          "major": {
+            "automerge": false
+          }
         },
         {
           "managers": [
