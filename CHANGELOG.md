@@ -1,3 +1,22 @@
+# v1.10.1 (Tue Apr 30 2019)
+
+#### 🐛  Bug Fix
+
+- Don't use version label on apps [#440](https://github.com/artsy/renovate-config/pull/440) ([@zephraph](https://github.com/zephraph))
+
+#### 🏠  Internal
+
+- Update dependency renovate to v16.8.1 [#438](https://github.com/artsy/renovate-config/pull/438) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v16.8.0 [#437](https://github.com/artsy/renovate-config/pull/437) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v16.7.5 [#436](https://github.com/artsy/renovate-config/pull/436) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 2
+
+- Justin Bennett ([@zephraph](https://github.com/zephraph))
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v1.10.0 (Mon Apr 29 2019)
 
 #### 🚀  Enhancement
