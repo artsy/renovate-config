@@ -88,6 +88,9 @@
           "groupName": [
             "non-artsy dependencies"
           ],
+          "labels": [
+            "Version: Trivial"
+          ],
           "automerge": true,
           "major": {
             "automerge": false
