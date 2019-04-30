@@ -1,3 +1,15 @@
+# v1.12.0 (Tue Apr 30 2019)
+
+#### 🚀  Enhancement
+
+- Always default to trivial on dep updates [#444](https://github.com/artsy/renovate-config/pull/444) ([@zephraph](https://github.com/zephraph))
+
+#### Authors: 1
+
+- Justin Bennett ([@zephraph](https://github.com/zephraph))
+
+---
+
 # v1.11.1 (Tue Apr 30 2019)
 
 #### 🐛  Bug Fix
