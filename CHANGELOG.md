@@ -1,3 +1,20 @@
+# v1.10.2 (Tue Apr 30 2019)
+
+#### 🐛  Bug Fix
+
+- auto merge minors by default, make artsy specific pr comments [#441](https://github.com/artsy/renovate-config/pull/441) ([@zephraph](https://github.com/zephraph))
+
+#### 🏠  Internal
+
+- Update dependency renovate to v16.8.2 [#439](https://github.com/artsy/renovate-config/pull/439) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 2
+
+- Justin Bennett ([@zephraph](https://github.com/zephraph))
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v1.10.1 (Tue Apr 30 2019)
 
 #### 🐛  Bug Fix
