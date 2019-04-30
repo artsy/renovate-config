@@ -62,9 +62,10 @@
         "artsy/hokusai"
       ],
       "timezone": "America/New_York",
-      "prBodyNotes": [
-        "See full list of changes [here]({{sourceUrl}}/compare/v{{currentValue}}...v{{newValue}})."
-      ],
+      "automerge": true,
+      "major": {
+        "automerge": false
+      },
       "commitMessageTopic": "dep {{depName}}",
       "commitMessageExtra": "from {{{currentVersion}}} to {{#if isMajor}}v{{{newMajor}}}{{else}}{{#if isSingleVersion}}v{{{toVersion}}}{{else}}{{{newValue}}}{{/if}}{{/if}}",
       "packageRules": [
@@ -83,11 +84,7 @@
           "excludePackagePatterns": [
             "^@artsy"
           ],
-          "masterIssueApproval": true,
-          "automerge": true,
-          "major": {
-            "automerge": false
-          }
+          "masterIssueApproval": true
         },
         {
           "managers": [
@@ -108,20 +105,20 @@
           ],
           "depTypeList": [
             "orb"
-          ],
-          "automerge": true,
-          "major": {
-            "automerge": false
-          }
+          ]
         },
         {
           "packageNames": [
             "@artsy/auto-config"
+          ]
+        },
+        {
+          "packagePatterns": [
+            "^@artsy"
           ],
-          "automerge": true,
-          "major": {
-            "automerge": false
-          }
+          "prBodyNotes": [
+            "See full list of changes [here]({{sourceUrl}}/compare/v{{currentValue}}...v{{newValue}})."
+          ]
         }
       ]
     },
