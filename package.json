@@ -38,9 +38,16 @@
       ]
     },
     "lib": {
-      "extends": [
-        ":pinOnlyDevDependencies",
-        "@artsy:shared"
+      "packageRules": [
+        {
+          "depTypeList": [
+            "devDependencies",
+            "orb"
+          ],
+          "labels": [
+            "Version: Trivial"
+          ]
+        }
       ]
     },
     "shared": {
@@ -93,15 +100,6 @@
             "*"
           ],
           "enabled": false
-        },
-        {
-          "depTypeList": [
-            "devDependencies",
-            "orb"
-          ],
-          "labels": [
-            "Version: Trivial"
-          ]
         },
         {
           "packageNames": [
