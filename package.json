@@ -84,7 +84,10 @@
           "excludePackagePatterns": [
             "^@artsy"
           ],
-          "masterIssueApproval": true
+          "masterIssueApproval": true,
+          "groupName": [
+            "non-artsy dependencies"
+          ]
         },
         {
           "managers": [
