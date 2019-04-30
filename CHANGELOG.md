@@ -1,3 +1,15 @@
+# v1.11.0 (Tue Apr 30 2019)
+
+#### 🚀  Enhancement
+
+- Create a group for non-artsy dependencies [#442](https://github.com/artsy/renovate-config/pull/442) ([@zephraph](https://github.com/zephraph))
+
+#### Authors: 1
+
+- Justin Bennett ([@zephraph](https://github.com/zephraph))
+
+---
+
 # v1.10.2 (Tue Apr 30 2019)
 
 #### 🐛  Bug Fix
