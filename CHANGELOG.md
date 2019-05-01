@@ -1,3 +1,15 @@
+# v1.12.1 (Wed May 01 2019)
+
+#### 🐛  Bug Fix
+
+- Fix malformed @artsy:lib config [#445](https://github.com/artsy/renovate-config/pull/445) ([@zephraph](https://github.com/zephraph))
+
+#### Authors: 1
+
+- Justin Bennett ([@zephraph](https://github.com/zephraph))
+
+---
+
 # v1.12.0 (Tue Apr 30 2019)
 
 #### 🚀  Enhancement
