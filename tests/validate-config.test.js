@@ -16,6 +16,16 @@ describe("@artsy/renovate-config", () => {
     expect(renovateConfig["default"]).toBeDefined();
   });
 
+  it(`"renovate-config" has "lib" and it extends shared`, async () => {
+    expect(renovateConfig.lib).toBeDefined();
+    expect(renovateConfig.lib.extends.includes("@artsy:shared")).toBeTruthy();
+  });
+
+  it(`"renovate-config" has "app" and it extends shared`, async () => {
+    expect(renovateConfig.app).toBeDefined();
+    expect(renovateConfig.app.extends.includes("@artsy:shared")).toBeTruthy();
+  });
+
   Object.keys(renovateConfig).forEach(assertConfig);
 
   function assertConfig(name) {

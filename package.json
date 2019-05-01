@@ -38,9 +38,15 @@
       ]
     },
     "lib": {
+      "extends": [
+        ":pinOnlyDevDependencies",
+        "@artsy:shared"
+      ],
       "packageRules": [
         {
           "depTypeList": [
+            "dependencies",
+            "peerDependencies",
             "devDependencies",
             "orb"
           ],
@@ -84,17 +90,7 @@
           "excludePackagePatterns": [
             "^@artsy"
           ],
-          "masterIssueApproval": true,
-          "groupName": [
-            "non-artsy dependencies"
-          ],
-          "labels": [
-            "Version: Trivial"
-          ],
-          "automerge": true,
-          "major": {
-            "automerge": false
-          }
+          "masterIssueApproval": true
         },
         {
           "managers": [
@@ -115,20 +111,7 @@
           ],
           "depTypeList": [
             "orb"
-          ],
-          "automerge": true,
-          "major": {
-            "automerge": false
-          }
-        },
-        {
-          "packageNames": [
-            "@artsy/auto-config"
-          ],
-          "automerge": true,
-          "major": {
-            "automerge": false
-          }
+          ]
         },
         {
           "packagePatterns": [
@@ -136,11 +119,7 @@
           ],
           "prBodyNotes": [
             "See full list of changes [here]({{sourceUrl}}/compare/v{{currentValue}}...v{{newValue}})."
-          ],
-          "automerge": true,
-          "major": {
-            "automerge": false
-          }
+          ]
         }
       ]
     },
