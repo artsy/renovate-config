@@ -5221,10 +5221,10 @@ pn@^1.1.0:
   resolved "https://registry.yarnpkg.com/pn/-/pn-1.1.0.tgz#e2f4cef0e219f463c179ab37463e4e1ecdccbafb"
   integrity sha512-2qHaIQr2VLRFoxe2nASzsV6ef4yOOH+Fi9FBOVH6cqeSgUnoyySPZkxzLuzd+RYOQTRpROA0ztTMqxROKSb/nA==
 
-pnpm@3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-3.3.1.tgz#983e234ca3c0641c5016b9a37494ca84f997e38f"
-  integrity sha512-OnRUhabeIUevLGFhNsTeodzu6Du9SkFTlOiIekWfqvYcHBHorxO56o7Sq5y/IXkoF9aMRauEp8rwzHR1P0up6g==
+pnpm@3.3.2:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-3.3.2.tgz#3780f1b3fe00cb7892df6b5ad86d1a3dc912a05d"
+  integrity sha512-amQ2kGiZYsuSOMKPCdUc1CiCAi9tn1SS5I5XydJqB/1N+3eg1jVknrg7A80iO6l3E6G8BQX6bMdeZ3w+gLHvFQ==
 
 posix-character-classes@^0.1.0:
   version "0.1.1"
@@ -5683,10 +5683,10 @@ remove-trailing-separator@^1.0.1:
   resolved "https://registry.yarnpkg.com/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz#c24bce2a283adad5bc3f58e0d48249b92379d8ef"
   integrity sha1-wkvOKig62tW8P1jg1IJJuSN52O8=
 
-renovate@17.3.5:
-  version "17.3.5"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-17.3.5.tgz#a104fe537c025258ddc25632e1ef248fae095fe9"
-  integrity sha512-SR0Mn9LLHE5jEuKdVHaEUt/e7zlIyPOJzelQFQAOlZi5ybRG8xmx2nH6wH8TPkEhvPD2+8BnLz0YniM2oz0MOQ==
+renovate@17.3.8:
+  version "17.3.8"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-17.3.8.tgz#0e9a4680f42204aa10d9196cefc8ed465fdd797d"
+  integrity sha512-++Q+Y4txsFkABn71d7ZlPw7UpBLfPo/sYNtKObNBNB4UV9+YNkNPz0vtMwqBPRvc3LLzxs/7V/srhS5GU7hTiQ==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@renovatebot/docker-registry-client" "3.3.0"
@@ -5734,7 +5734,7 @@ renovate@17.3.5:
     p-all "2.1.0"
     parse-diff "0.5.1"
     parse-link-header "1.0.1"
-    pnpm "3.3.1"
+    pnpm "3.3.2"
     proxy-agent "3.0.3"
     registry-auth-token "3.3.2"
     root-require "0.3.1"
