@@ -5691,10 +5691,10 @@ remove-trailing-separator@^1.0.1:
   resolved "https://registry.yarnpkg.com/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz#c24bce2a283adad5bc3f58e0d48249b92379d8ef"
   integrity sha1-wkvOKig62tW8P1jg1IJJuSN52O8=
 
-renovate@17.7.7:
-  version "17.7.7"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-17.7.7.tgz#d0a37bcfd9d13b590bb5dc41efe20e66cd3ef31e"
-  integrity sha512-AWbm9rG8SMvBnSrY8bQ3F6C/SvVseGRmca9vpciDF5opH9GxMUY53zla02T2AubRNc2qGi8uv9zpvn1j+gNQTA==
+renovate@17.7.8:
+  version "17.7.8"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-17.7.8.tgz#b7e02da33b964fceb25a957e7e376258874bfa65"
+  integrity sha512-8q1omcaDa9BkRLKjASJe2nIVtkLsvXWPtCicpPVfNMFXx1FAPJIXE1nKKpkMzxZKmvkbV+eUph3dj1cp73pwkw==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@renovatebot/docker-registry-client" "3.3.0"
