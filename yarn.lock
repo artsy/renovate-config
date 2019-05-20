@@ -337,10 +337,10 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
   integrity sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
 
-"@snyk/ruby-semver@github:rarkins/ruby-semver#semverfix":
+"@snyk/ruby-semver@git+https://github.com/rarkins/ruby-semver.git#semverfix":
   version "2.0.2-rc.0"
   uid aefe0848d062e417ade9d9529dfe3cbd2e53dad3
-  resolved "https://codeload.github.com/rarkins/ruby-semver/tar.gz/aefe0848d062e417ade9d9529dfe3cbd2e53dad3"
+  resolved "git+https://github.com/rarkins/ruby-semver.git#aefe0848d062e417ade9d9529dfe3cbd2e53dad3"
   dependencies:
     lodash "^4.17.11"
 
@@ -5685,15 +5685,15 @@ remove-trailing-separator@^1.0.1:
   resolved "https://registry.yarnpkg.com/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz#c24bce2a283adad5bc3f58e0d48249b92379d8ef"
   integrity sha1-wkvOKig62tW8P1jg1IJJuSN52O8=
 
-renovate@17.9.0:
-  version "17.9.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-17.9.0.tgz#6a0f46e476dd47f4bfd78658bb9e73ee3ef26cf5"
-  integrity sha512-thH7J2/cUglql44QW2uaFtLKcQbhS7t/eByfMQSaQ9zaTe/dFQ9rgByY4hWC75Z6HlD8Aump3mq0IBdfWT5WIQ==
+renovate@17.10.2:
+  version "17.10.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-17.10.2.tgz#1528e31e58fc0aed3e8d7506bf7a76d5b8881bcd"
+  integrity sha512-ieddfnMySKPF7q/3HKV2Jq3fMtqNYyQ6V6u724GO1B1UlOgOCIRPlffu7g3T2GHb/VUWXUCQHaX65aAuHHmE1w==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@renovatebot/docker-registry-client" "3.3.0"
     "@sindresorhus/is" "0.17.0"
-    "@snyk/ruby-semver" "github:rarkins/ruby-semver#semverfix"
+    "@snyk/ruby-semver" "git+https://github.com/rarkins/ruby-semver.git#semverfix"
     "@yarnpkg/lockfile" "1.1.0"
     azure-devops-node-api "8.0.0"
     bunyan "1.8.12"
