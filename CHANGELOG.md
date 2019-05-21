@@ -1,3 +1,29 @@
+# v1.13.1 (Tue May 21 2019)
+
+#### 🐛  Bug Fix
+
+- Use canary yarn orb to verify auto release works [#519](https://github.com/artsy/renovate-config/pull/519) ([@zephraph](https://github.com/zephraph))
+
+#### 🏠  Internal
+
+- Update dependency renovate to v17.14.3 [#518](https://github.com/artsy/renovate-config/pull/518) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.14.1 [#517](https://github.com/artsy/renovate-config/pull/517) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.14.0 [#516](https://github.com/artsy/renovate-config/pull/516) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.13.0 [#515](https://github.com/artsy/renovate-config/pull/515) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.12.0 [#514](https://github.com/artsy/renovate-config/pull/514) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.11.6 [#513](https://github.com/artsy/renovate-config/pull/513) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### ⚠️  Pushed to master
+
+- Use PR based canary of the yarn orb  ([@zephraph](https://github.com/zephraph))
+
+#### Authors: 2
+
+- Justin Bennett ([@zephraph](https://github.com/zephraph))
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v1.13.0 (Tue May 21 2019)
 
 ### Release Notes
