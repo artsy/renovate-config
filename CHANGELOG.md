@@ -1,3 +1,417 @@
+# v1.13.0 (Tue May 21 2019)
+
+### Release Notes
+
+_From #512_
+
+<details>
+<summary>renovatebot/renovate</summary>
+
+_From #507_
+
+<details>
+<summary>renovatebot/renovate</summary>
+
+_From #506_
+
+<details>
+<summary>renovatebot/renovate</summary>
+
+_From #497_
+
+<details>
+<summary>renovatebot/renovate</summary>
+
+_From #486_
+
+<details>
+<summary>renovatebot/renovate</summary>
+
+_From #481_
+
+<details>
+<summary>typicode/husky</summary>
+
+### [`v2.3.0`](https://togithub.com/typicode/husky/blob/master/CHANGELOG.md#&#8203;230)
+
+[Compare Source](https://togithub.com/typicode/husky/compare/v2.2.0...v2.3.0)
+
+-   Make `HUSKY_DEBUG=1` effective like `HUSKY_DEBUG=true`
+-   Refactor script to point to `run-node/run-node` rather than `.bin/run-node`
+
+</details>
+
+---
+
+_From #480_
+
+<details>
+<summary>renovatebot/renovate</summary>
+
+_From #479_
+
+<details>
+<summary>renovatebot/renovate</summary>
+
+_From #478_
+
+<details>
+<summary>renovatebot/renovate</summary>
+
+_From #477_
+
+<details>
+<summary>renovatebot/renovate</summary>
+
+_From #476_
+
+<details>
+<summary>renovatebot/renovate</summary>
+
+_From #475_
+
+<details>
+<summary>renovatebot/renovate</summary>
+
+_From #474_
+
+<details>
+<summary>renovatebot/renovate</summary>
+
+_From #473_
+
+<details>
+<summary>renovatebot/renovate</summary>
+
+_From #472_
+
+<details>
+<summary>renovatebot/renovate</summary>
+
+_From #471_
+
+<details>
+<summary>renovatebot/renovate</summary>
+
+_From #470_
+
+<details>
+<summary>renovatebot/renovate</summary>
+
+_From #469_
+
+<details>
+<summary>renovatebot/renovate</summary>
+
+_From #467_
+
+<details>
+<summary>renovatebot/renovate</summary>
+
+_From #466_
+
+<details>
+<summary>renovatebot/renovate</summary>
+
+_From #465_
+
+<details>
+<summary>renovatebot/renovate</summary>
+
+_From #464_
+
+<details>
+<summary>renovatebot/renovate</summary>
+
+_From #463_
+
+<details>
+<summary>renovatebot/renovate</summary>
+
+_From #462_
+
+<details>
+<summary>renovatebot/renovate</summary>
+
+_From #461_
+
+<details>
+<summary>renovatebot/renovate</summary>
+
+_From #460_
+
+<details>
+<summary>renovatebot/renovate</summary>
+
+_From #459_
+
+<details>
+<summary>artsy/auto-config</summary>
+
+### [`v1.0.0`](https://togithub.com/artsy/auto-config/blob/master/CHANGELOG.md#v100-Mon-May-06-2019)
+
+[Compare Source](https://togithub.com/artsy/auto-config/compare/v0.1.2...v1.0.0)
+
+##### 💥  Breaking Change
+
+-   Reformat config to package.json to prep for next auto release [#&#8203;15](https://togithub.com/artsy/auto-config/pull/15) ([@&#8203;zephraph](https://togithub.com/zephraph))
+
+##### Authors: 1
+
+-   Justin Bennett ([@&#8203;zephraph](https://togithub.com/zephraph))
+
+* * *
+
+</details>
+
+---
+
+_From #458_
+
+<details>
+<summary>artsy/auto-config</summary>
+
+### [`v0.1.2`](https://togithub.com/artsy/auto-config/blob/master/CHANGELOG.md#v012-Mon-May-06-2019)
+
+[Compare Source](https://togithub.com/artsy/auto-config/compare/v0.1.1...v0.1.2)
+
+##### 🐛  Bug Fix
+
+-   Revert "Move config to package.json to prep for next auto release" [#&#8203;14](https://togithub.com/artsy/auto-config/pull/14) ([@&#8203;zephraph](https://togithub.com/zephraph))
+
+##### Authors: 1
+
+-   Justin Bennett ([@&#8203;zephraph](https://togithub.com/zephraph))
+
+* * *
+
+### [`v0.1.1`](https://togithub.com/artsy/auto-config/blob/master/CHANGELOG.md#v011-Mon-May-06-2019)
+
+[Compare Source](https://togithub.com/artsy/auto-config/compare/v0.1.0...v0.1.1)
+
+##### 🐛  Bug Fix
+
+-   Move config to package.json to prep for next auto release [#&#8203;13](https://togithub.com/artsy/auto-config/pull/13) ([@&#8203;zephraph](https://togithub.com/zephraph))
+
+##### 🏠  Internal
+
+-   Update yarn orb to v0.2.0 [#&#8203;12](https://togithub.com/artsy/auto-config/pull/12) ([@&#8203;renovate-bot](https://togithub.com/renovate-bot))
+-   Update yarn orb to v0.1.8 [#&#8203;11](https://togithub.com/artsy/auto-config/pull/11) ([@&#8203;renovate-bot](https://togithub.com/renovate-bot))
+-   Update yarn orb to v0.1.7 [#&#8203;10](https://togithub.com/artsy/auto-config/pull/10) ([@&#8203;renovate-bot](https://togithub.com/renovate-bot))
+-   Update yarn orb to v0.1.6 [#&#8203;9](https://togithub.com/artsy/auto-config/pull/9) ([@&#8203;renovate-bot](https://togithub.com/renovate-bot))
+
+##### Authors: 2
+
+-   Justin Bennett ([@&#8203;zephraph](https://togithub.com/zephraph))
+-   Renovate Bot ([@&#8203;renovate-bot](https://togithub.com/renovate-bot))
+
+* * *
+
+</details>
+
+---
+
+_From #457_
+
+<details>
+<summary>renovatebot/renovate</summary>
+
+_From #456_
+
+<details>
+<summary>facebook/jest</summary>
+
+### [`v24.8.0`](https://togithub.com/facebook/jest/blob/master/CHANGELOG.md#&#8203;2480)
+
+[Compare Source](https://togithub.com/facebook/jest/compare/v24.7.1...v24.8.0)
+
+##### Features
+
+-   `[jest-circus]` Bind to Circus events via an optional event handler on any custom env ([#&#8203;8344](https://togithub.com/facebook/jest/pull/8344)
+-   `[expect]` Improve report when matcher fails, part 15 ([#&#8203;8281](https://togithub.com/facebook/jest/pull/8281))
+-   `[jest-cli]` Update `--forceExit` and "did not exit for one second" message colors ([#&#8203;8329](https://togithub.com/facebook/jest/pull/8329))
+-   `[expect]` Improve report when matcher fails, part 16 ([#&#8203;8306](https://togithub.com/facebook/jest/pull/8306))
+-   `[jest-runner]` Pass docblock pragmas to TestEnvironment constructor ([#&#8203;8320](https://togithub.com/facebook/jest/pull/8320))
+-   `[docs]` Add DynamoDB guide ([#&#8203;8319](https://togithub.com/facebook/jest/pull/8319))
+-   `[expect]` Improve report when matcher fails, part 17 ([#&#8203;8349](https://togithub.com/facebook/jest/pull/8349))
+-   `[expect]` Improve report when matcher fails, part 18 ([#&#8203;8356](https://togithub.com/facebook/jest/pull/8356))
+-   `[expect]` Improve report when matcher fails, part 19 ([#&#8203;8367](https://togithub.com/facebook/jest/pull/8367))
+
+##### Fixes
+
+-   `[jest-each]` Fix bug with placeholder values ([#&#8203;8289](https://togithub.com/facebook/jest/pull/8289))
+-   `[jest-snapshot]` Inline snapshots: do not indent empty lines ([#&#8203;8277](https://togithub.com/facebook/jest/pull/8277))
+-   `[@jest/runtime, @&#8203;jest/transform]` Allow custom transforms for JSON dependencies ([#&#8203;2578](https://togithub.com/facebook/jest/pull/2578))
+-   `[jest-core]` Make `detectOpenHandles` imply `runInBand` ([#&#8203;8283](https://togithub.com/facebook/jest/pull/8283))
+-   `[jest-haste-map]` Fix the `mapper` option which was incorrectly ignored ([#&#8203;8299](https://togithub.com/facebook/jest/pull/8299))
+-   `[jest-jasmine2]` Fix describe return value warning being shown if the describe function throws ([#&#8203;8335](https://togithub.com/facebook/jest/pull/8335))
+-   `[jest-environment-jsdom]` Re-declare global prototype of JSDOMEnvironment ([#&#8203;8352](https://togithub.com/facebook/jest/pull/8352))
+-   `[jest-snapshot]` Handle arrays when merging snapshots ([#&#8203;7089](https://togithub.com/facebook/jest/pull/7089))
+-   `[expect]` Extract names of async and generator functions ([#&#8203;8362](https://togithub.com/facebook/jest/pull/8362))
+-   `[jest-runtime]` Fix virtual mocks not being unmockable after previously being mocked ([#&#8203;8396](https://togithub.com/facebook/jest/pull/8396))
+-   `[jest-transform]` Replace special characters in transform cache filenames to support Windows ([#&#8203;8353](https://togithub.com/facebook/jest/pull/8353))
+-   `[jest-config]` Allow exactly one project ([#&#8203;7498](https://togithub.com/facebook/jest/pull/7498))
+
+##### Chore & Maintenance
+
+-   `[expect]` Fix label and add opposite assertion for toEqual tests ([#&#8203;8288](https://togithub.com/facebook/jest/pull/8288))
+-   `[docs]` Mention Jest MongoDB Preset ([#&#8203;8318](https://togithub.com/facebook/jest/pull/8318))
+-   `[@jest/reporters]` Migrate away from `istanbul-api` ([#&#8203;8294](https://togithub.com/facebook/jest/pull/8294))
+-   `[*]` Delete obsolete emails tag from header comment in test files ([#&#8203;8377](https://togithub.com/facebook/jest/pull/8377))
+-   `[expect]` optimize compare nodes ([#&#8203;8368](https://togithub.com/facebook/jest/pull/8368))
+-   `[docs]` Fix typo in MockFunctionAPI.md ([#&#8203;8406](https://togithub.com/facebook/jest/pull/8406))
+
+##### Performance
+
+-   `[jest-runtime]` Fix module registry memory leak ([#&#8203;8282](https://togithub.com/facebook/jest/pull/8282))
+-   `[jest-resolve]` optimize resolve module path ([#&#8203;8388](https://togithub.com/facebook/jest/pull/8388))
+-   `[jest-resolve]` cache current directory ([#&#8203;8412](https://togithub.com/facebook/jest/pull/8412))
+-   `[jest-get-type]` Simplify checking for primitive ([#&#8203;8416](https://togithub.com/facebook/jest/pull/8416))
+
+</details>
+
+---
+
+_From #455_
+
+<details>
+<summary>renovatebot/renovate</summary>
+
+_From #454_
+
+<details>
+<summary>renovatebot/renovate</summary>
+
+_From #453_
+
+<details>
+<summary>renovatebot/renovate</summary>
+
+_From #452_
+
+<details>
+<summary>renovatebot/renovate</summary>
+
+_From #451_
+
+<details>
+<summary>renovatebot/renovate</summary>
+
+_From #450_
+
+<details>
+<summary>typicode/husky</summary>
+
+### [`v2.2.0`](https://togithub.com/typicode/husky/blob/master/CHANGELOG.md#&#8203;220)
+
+[Compare Source](https://togithub.com/typicode/husky/compare/v2.1.0...v2.2.0)
+
+-   Improve Git worktree support
+
+</details>
+
+---
+
+_From #449_
+
+<details>
+<summary>renovatebot/renovate</summary>
+
+_From #448_
+
+<details>
+<summary>renovatebot/renovate</summary>
+
+_From #447_
+
+<details>
+<summary>renovatebot/renovate</summary>
+
+_From #446_
+
+<details>
+<summary>renovatebot/renovate</summary>
+
+---
+
+#### 🚀  Enhancement
+
+- Create dep PRs for any omkase packages [#509](https://github.com/artsy/renovate-config/pull/509) ([@zephraph](https://github.com/zephraph))
+
+#### 🏠  Internal
+
+- Update dependency renovate to v17.11.4 [#512](https://github.com/artsy/renovate-config/pull/512) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.11.3 [#511](https://github.com/artsy/renovate-config/pull/511) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.11.1 [#507](https://github.com/artsy/renovate-config/pull/507) ([@renovate-bot](https://github.com/renovate-bot))
+- Update yarn orb to v1.1.1 [#508](https://github.com/artsy/renovate-config/pull/508) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.11.0 [#506](https://github.com/artsy/renovate-config/pull/506) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.10.2 [#505](https://github.com/artsy/renovate-config/pull/505) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.9.0 [#504](https://github.com/artsy/renovate-config/pull/504) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.8.4 [#503](https://github.com/artsy/renovate-config/pull/503) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.8.3 [#502](https://github.com/artsy/renovate-config/pull/502) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.8.2 [#501](https://github.com/artsy/renovate-config/pull/501) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.8.0 [#500](https://github.com/artsy/renovate-config/pull/500) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.7.11 [#499](https://github.com/artsy/renovate-config/pull/499) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.7.10 [#498](https://github.com/artsy/renovate-config/pull/498) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.7.9 [#497](https://github.com/artsy/renovate-config/pull/497) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.7.8 [#496](https://github.com/artsy/renovate-config/pull/496) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.7.7 [#495](https://github.com/artsy/renovate-config/pull/495) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.7.6 [#494](https://github.com/artsy/renovate-config/pull/494) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.7.4 [#493](https://github.com/artsy/renovate-config/pull/493) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.7.2 [#492](https://github.com/artsy/renovate-config/pull/492) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.6.5 [#491](https://github.com/artsy/renovate-config/pull/491) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.6.4 [#490](https://github.com/artsy/renovate-config/pull/490) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.6.3 [#489](https://github.com/artsy/renovate-config/pull/489) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.6.1 [#488](https://github.com/artsy/renovate-config/pull/488) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.5.1 [#487](https://github.com/artsy/renovate-config/pull/487) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.5.0 [#486](https://github.com/artsy/renovate-config/pull/486) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.4.1 [#485](https://github.com/artsy/renovate-config/pull/485) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.3.9 [#484](https://github.com/artsy/renovate-config/pull/484) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.3.8 [#483](https://github.com/artsy/renovate-config/pull/483) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.3.5 [#482](https://github.com/artsy/renovate-config/pull/482) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency husky to v2.3.0 [#481](https://github.com/artsy/renovate-config/pull/481) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.3.3 [#480](https://github.com/artsy/renovate-config/pull/480) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.3.1 [#479](https://github.com/artsy/renovate-config/pull/479) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.3.0 [#478](https://github.com/artsy/renovate-config/pull/478) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.2.7 [#477](https://github.com/artsy/renovate-config/pull/477) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.2.5 [#476](https://github.com/artsy/renovate-config/pull/476) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.2.4 [#475](https://github.com/artsy/renovate-config/pull/475) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.2.3 [#474](https://github.com/artsy/renovate-config/pull/474) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.2.2 [#473](https://github.com/artsy/renovate-config/pull/473) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.2.1 [#472](https://github.com/artsy/renovate-config/pull/472) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.2.0 [#471](https://github.com/artsy/renovate-config/pull/471) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17.1.0 [#470](https://github.com/artsy/renovate-config/pull/470) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v17 [#469](https://github.com/artsy/renovate-config/pull/469) ([@renovate-bot](https://github.com/renovate-bot) [@zephraph](https://github.com/zephraph))
+- Update dependency renovate to v16.13.5 [#467](https://github.com/artsy/renovate-config/pull/467) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v16.13.4 [#466](https://github.com/artsy/renovate-config/pull/466) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v16.13.3 [#465](https://github.com/artsy/renovate-config/pull/465) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v16.13.1 [#464](https://github.com/artsy/renovate-config/pull/464) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v16.13.0 [#463](https://github.com/artsy/renovate-config/pull/463) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v16.12.2 [#462](https://github.com/artsy/renovate-config/pull/462) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v16.12.1 [#461](https://github.com/artsy/renovate-config/pull/461) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v16.12.0 [#460](https://github.com/artsy/renovate-config/pull/460) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency @artsy/auto-config to v1 [#459](https://github.com/artsy/renovate-config/pull/459) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency @artsy/auto-config to v0.1.2 [#458](https://github.com/artsy/renovate-config/pull/458) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v16.11.0 [#457](https://github.com/artsy/renovate-config/pull/457) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency jest to v24.8.0 [#456](https://github.com/artsy/renovate-config/pull/456) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v16.10.8 [#455](https://github.com/artsy/renovate-config/pull/455) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v16.10.7 [#454](https://github.com/artsy/renovate-config/pull/454) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v16.10.6 [#453](https://github.com/artsy/renovate-config/pull/453) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v16.10.4 [#452](https://github.com/artsy/renovate-config/pull/452) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v16.10.3 [#451](https://github.com/artsy/renovate-config/pull/451) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency husky to v2.2.0 [#450](https://github.com/artsy/renovate-config/pull/450) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v16.10.1 [#449](https://github.com/artsy/renovate-config/pull/449) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v16.10.0 [#448](https://github.com/artsy/renovate-config/pull/448) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v16.9.2 [#447](https://github.com/artsy/renovate-config/pull/447) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency renovate to v16.9.0 [#446](https://github.com/artsy/renovate-config/pull/446) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 2
+
+- Justin Bennett ([@zephraph](https://github.com/zephraph))
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v1.12.1 (Wed May 01 2019)
 
 #### 🐛  Bug Fix
