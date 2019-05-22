@@ -1,3 +1,19 @@
+# v1.13.2 (Wed May 22 2019)
+
+#### 🐛  Bug Fix
+
+- Fix renovate config [#522](https://github.com/artsy/renovate-config/pull/522) ([@zephraph](https://github.com/zephraph))
+
+#### 🏠  Internal
+
+- Use renovate lib workflow [#520](https://github.com/artsy/renovate-config/pull/520) ([@zephraph](https://github.com/zephraph))
+
+#### Authors: 1
+
+- Justin Bennett ([@zephraph](https://github.com/zephraph))
+
+---
+
 # v1.13.1 (Tue May 21 2019)
 
 #### 🐛  Bug Fix
