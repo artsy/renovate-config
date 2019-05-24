@@ -106,13 +106,13 @@
           "enabled": false
         },
         {
-          "packageNames": [
-            "yarn",
-            "node"
+          "packagePatterns": [
+            "*"
           ],
           "depTypeList": [
             "orb"
-          ]
+          ],
+          "enabled": true
         },
         {
           "packagePatterns": [
