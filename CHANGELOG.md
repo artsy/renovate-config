@@ -1,3 +1,20 @@
+# v1.13.3 (Fri May 24 2019)
+
+#### 🐛  Bug Fix
+
+- Explicitly ensure orb updates are enabled [#526](https://github.com/artsy/renovate-config/pull/526) ([@zephraph](https://github.com/zephraph))
+
+#### 🏠  Internal
+
+- Update dep renovate from 17.14.3 to v17.14.5 [#524](https://github.com/artsy/renovate-config/pull/524) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 2
+
+- Justin Bennett ([@zephraph](https://github.com/zephraph))
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v1.13.2 (Wed May 22 2019)
 
 #### 🐛  Bug Fix
