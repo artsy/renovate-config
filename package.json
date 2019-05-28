@@ -60,9 +60,13 @@
       "extends": [
         ":disableRateLimiting"
       ],
+      "bundler": {
+        "enabled": true
+      },
       "enabledManagers": [
         "npm",
-        "circleci"
+        "circleci",
+        "bundler"
       ],
       "ignoreDeps": [
         "artsy/hokusai"
