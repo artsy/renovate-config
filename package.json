@@ -62,8 +62,12 @@
       ],
       "enabledManagers": [
         "npm",
-        "circleci"
+        "circleci",
+        "bundler"
       ],
+      "bundler": {
+        "enabled": true
+      },
       "ignoreDeps": [
         "artsy/hokusai"
       ],

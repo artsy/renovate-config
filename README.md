@@ -17,3 +17,9 @@ Your `renovate.json` file might look something like this
 Where `@artsy` is the `default` renovate config, and `@artsy:example` is the `example` renovate config (which doesn't actually exist).
 
 The renovate config presets are stored in this projects package.json.
+
+## Steps to add/modify configs
+
+- Add/modify code in `generate-config.js`.
+- Run `yarn generate-config`.
+- Run `yarn jest`.
