@@ -20,6 +20,6 @@ The renovate config presets are stored in this projects package.json.
 
 ## Steps to add/modify configs
 
-- Add/modify code in `generate-config.js`.
+- Add/modify code in `config-builder.js`.
 - Run `yarn generate-config`.
 - Run `yarn jest`.
