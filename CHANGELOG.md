@@ -1,3 +1,29 @@
+# v1.13.4 (Wed May 29 2019)
+
+### Release Notes
+
+_From #531_
+
+<details>
+<summary>renovatebot/renovate</summary>
+
+---
+
+#### 🐛  Bug Fix
+
+- Don't do security PRs w/ renovate [#533](https://github.com/artsy/renovate-config/pull/533) ([@zephraph](https://github.com/zephraph))
+
+#### 🏠  Internal
+
+- Update dep renovate from 17.14.5 to v17.16.5 [#531](https://github.com/artsy/renovate-config/pull/531) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 2
+
+- Justin Bennett ([@zephraph](https://github.com/zephraph))
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v1.13.3 (Fri May 24 2019)
 
 #### 🐛  Bug Fix
