@@ -72,6 +72,9 @@
       "major": {
         "automerge": false
       },
+      "vulnerabilityAlerts": {
+        "enabled": false
+      },
       "commitMessageTopic": "dep {{depName}}",
       "commitMessageExtra": "from {{{currentVersion}}} to {{#if isMajor}}v{{{newMajor}}}{{else}}{{#if isSingleVersion}}v{{{toVersion}}}{{else}}{{{newValue}}}{{/if}}{{/if}}",
       "packageRules": [
