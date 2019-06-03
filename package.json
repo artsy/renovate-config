@@ -125,7 +125,12 @@
             "See full list of changes [here]({{sourceUrl}}/compare/v{{currentValue}}...v{{newValue}})."
           ]
         }
-      ]
+      ],
+      "pin": {
+        "masterIssueApproval": false,
+        "enabled": true,
+        "automerge": true
+      }
     },
     "default": {
       "extends": [

@@ -1,6 +1,6 @@
 const { initLogger } = require("renovate/dist/logger");
 const { migrateAndValidate } = require("renovate/dist/config/migrate-validate");
-const { getCommitMessageExtraDefault, configs } = require("../lib/config-builder");
+const { getCommitMessageExtraDefault, configs } = require("../lib/config");
 
 initLogger();
 
