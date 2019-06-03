@@ -1,3 +1,15 @@
+# v1.14.0 (Mon Jun 03 2019)
+
+#### 🚀  Enhancement
+
+- Rename config, automatically merge pins [#535](https://github.com/artsy/renovate-config/pull/535) ([@zephraph](https://github.com/zephraph))
+
+#### Authors: 1
+
+- Justin Bennett ([@zephraph](https://github.com/zephraph))
+
+---
+
 # v1.13.4 (Wed May 29 2019)
 
 ### Release Notes
