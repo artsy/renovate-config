@@ -1,3 +1,15 @@
+# v1.14.1 (Mon Jun 10 2019)
+
+#### 🏠  Internal
+
+- Bump fstream from 1.0.11 to 1.0.12 [#534](https://github.com/artsy/renovate-config/pull/534) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 1
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+
+---
+
 # v1.14.0 (Mon Jun 03 2019)
 
 #### 🚀  Enhancement
