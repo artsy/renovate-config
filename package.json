@@ -21,7 +21,7 @@
   "devDependencies": {
     "@artsy/auto-config": "1.0.0",
     "deepmerge": "3.2.0",
-    "husky": "2.3.0",
+    "husky": "2.4.0",
     "jest": "24.8.0",
     "renovate": "17.16.5"
   },
