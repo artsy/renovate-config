@@ -1,3 +1,32 @@
+# v1.14.2 (Tue Jul 09 2019)
+
+#### 🐛  Bug Fix
+
+- Switch over to auto orb [#542](https://github.com/artsy/renovate-config/pull/542) ([@zephraph](https://github.com/zephraph))
+
+#### 🏠  Internal
+
+- Update dep husky from 2.4.0 to v2.4.1 [#540](https://github.com/artsy/renovate-config/pull/540) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dep renovate from 18.12.0 to v18.16.14 [#541](https://github.com/artsy/renovate-config/pull/541) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dep deepmerge from 3.2.0 to v3.3.0 [#539](https://github.com/artsy/renovate-config/pull/539) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dep husky from 2.3.0 to v2.4.0 [#537](https://github.com/artsy/renovate-config/pull/537) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dep renovate from 17.16.5 to v18 [#538](https://github.com/artsy/renovate-config/pull/538) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### ⚠️  Pushed to master
+
+- Hopefully the LAST forced ci build...  ([@zephraph](https://github.com/zephraph))
+- Force another CI build for testing purposes II  ([@zephraph](https://github.com/zephraph))
+- Force another CI build for testing purposes  ([@zephraph](https://github.com/zephraph))
+- Force build  ([@zephraph](https://github.com/zephraph))
+- Force CI build  ([@zephraph](https://github.com/zephraph))
+
+#### Authors: 2
+
+- Justin Bennett ([@zephraph](https://github.com/zephraph))
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v1.14.1 (Mon Jun 10 2019)
 
 #### 🏠  Internal
