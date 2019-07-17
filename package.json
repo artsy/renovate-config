@@ -115,7 +115,10 @@
           "depTypeList": [
             "orb"
           ],
-          "enabled": true
+          "enabled": true,
+          "major": {
+            "enabled": true
+          }
         },
         {
           "packagePatterns": [
