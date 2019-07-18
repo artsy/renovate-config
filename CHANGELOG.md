@@ -1,3 +1,20 @@
+# v1.14.3 (Thu Jul 18 2019)
+
+#### 🐛  Bug Fix
+
+- Fix an issue w/ orbs not getting PRs on major updates [#544](https://github.com/artsy/renovate-config/pull/544) ([@zephraph](https://github.com/zephraph))
+
+#### 🏠  Internal
+
+- Bump lodash.template from 4.4.0 to 4.5.0 [#543](https://github.com/artsy/renovate-config/pull/543) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 2
+
+- Justin Bennett ([@zephraph](https://github.com/zephraph))
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+
+---
+
 # v1.14.2 (Tue Jul 09 2019)
 
 #### 🐛  Bug Fix
