@@ -127,6 +127,10 @@
           "prBodyNotes": [
             "See full list of changes [here]({{sourceUrl}}/compare/v{{currentValue}}...v{{newValue}})."
           ]
+        },
+        {
+          "extends": "monorepo:react",
+          "groupName": "react monorepo"
         }
       ],
       "pin": {
