@@ -10,7 +10,6 @@ workflows:
       - yarn/jest
       - yarn/run:
           name: validate-config
-          description: Validates the renovate configuration
           script: renovate-config-validator
       - yarn/auto-release:
           context: npm-deploy
@@ -20,4 +19,4 @@ workflows:
           requires:
             - validate-config
             - yarn/update-cache
-            - yarn/test
+            - yarn/jest
