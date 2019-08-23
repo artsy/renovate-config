@@ -1,4 +1,3 @@
-const { migrateAndValidate } = require("renovate/dist/config/migrate-validate");
 const { getCommitMessageExtraDefault, configs } = require("../lib/config");
 
 const pkg = Object.freeze(require("../package.json"));
@@ -31,26 +30,10 @@ describe("@artsy/renovate-config", () => {
       expect(Object.keys(config).length).toBeGreaterThan(0);
     });
 
-    it(`"${name}" is valid`, async () => {
-      const config = renovateConfig[name];
-      const { errors, warnings } = await migrateAndValidate({}, config);
-      expect(errors).toEqual([]);
-      expect(warnings).toEqual([]);
-    });
-
     it(`${name} matches generated config`, () => {
       expect(renovateConfig[name]).toEqual(configs[name]);
     });
   }
-});
-
-describe("renovate.json", () => {
-  it("valid", async () => {
-    const config = require("../renovate.json");
-    const { errors, warnings } = await migrateAndValidate({}, config);
-    expect(errors).toEqual([]);
-    expect(warnings).toEqual([]);
-  });
 });
 
 describe("generate-config", () => {
