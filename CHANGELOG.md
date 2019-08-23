@@ -1,3 +1,27 @@
+# v1.15.0 (Fri Aug 23 2019)
+
+#### 🚀  Enhancement
+
+- Group react dependencies together [#549](https://github.com/artsy/renovate-config/pull/549) ([@zephraph](https://github.com/zephraph))
+
+#### 🏠  Internal
+
+- Update dep jest from 24.8.0 to v24.9.0 [#548](https://github.com/artsy/renovate-config/pull/548) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dep husky from 2.4.1 to v3 [#547](https://github.com/artsy/renovate-config/pull/547) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dep renovate from 18.16.14 to v19 [#545](https://github.com/artsy/renovate-config/pull/545) ([@renovate-bot](https://github.com/renovate-bot) [@zephraph](https://github.com/zephraph))
+- Update dep @artsy/auto-config from 1.0.0 to v1.0.1 [#546](https://github.com/artsy/renovate-config/pull/546) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### ⚠️  Pushed to master
+
+- Update yarn lock file  ([@zephraph](https://github.com/zephraph))
+
+#### Authors: 2
+
+- Justin Bennett ([@zephraph](https://github.com/zephraph))
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v1.14.3 (Thu Jul 18 2019)
 
 #### 🐛  Bug Fix
