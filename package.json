@@ -23,7 +23,7 @@
     "deepmerge": "3.3.0",
     "husky": "2.4.1",
     "jest": "24.8.0",
-    "renovate": "18.16.14"
+    "renovate": "19.32.0"
   },
   "husky": {
     "hooks": {
