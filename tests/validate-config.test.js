@@ -1,8 +1,5 @@
-const { initLogger } = require("renovate/dist/logger");
 const { migrateAndValidate } = require("renovate/dist/config/migrate-validate");
 const { getCommitMessageExtraDefault, configs } = require("../lib/config");
-
-initLogger();
 
 const pkg = Object.freeze(require("../package.json"));
 const renovateConfig = Object.freeze(pkg["renovate-config"]);
