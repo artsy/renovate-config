@@ -1,3 +1,24 @@
+# v1.16.0 (Fri Aug 30 2019)
+
+#### 🚀  Enhancement
+
+- Group babel dependencies together into a single update [#554](https://github.com/artsy/renovate-config/pull/554) ([@zephraph](https://github.com/zephraph))
+
+#### 🏠  Internal
+
+- Bump mixin-deep from 1.3.1 to 1.3.2 [#553](https://github.com/artsy/renovate-config/pull/553) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Update dep renovate from 19.32.0 to v19.34.4 [#552](https://github.com/artsy/renovate-config/pull/552) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dep deepmerge from 3.3.0 to v4 [#551](https://github.com/artsy/renovate-config/pull/551) ([@renovate-bot](https://github.com/renovate-bot))
+- Pin dep jest-junit from ^7.0.0 to 7.0.0 [#550](https://github.com/artsy/renovate-config/pull/550) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 3
+
+- Justin Bennett ([@zephraph](https://github.com/zephraph))
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v1.15.0 (Fri Aug 23 2019)
 
 #### 🚀  Enhancement
