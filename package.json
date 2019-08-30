@@ -131,7 +131,11 @@
         },
         {
           "extends": "monorepo:react",
-          "groupName": "react monorepo"
+          "groupName": "react"
+        },
+        {
+          "extends": "monorepo:babel",
+          "groupName": "babel"
         }
       ],
       "pin": {
