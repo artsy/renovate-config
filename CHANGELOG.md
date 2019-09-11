@@ -1,3 +1,15 @@
+# v1.17.0 (Wed Sep 11 2019)
+
+#### 🚀  Enhancement
+
+- [config] Create PRs for vscode-apollo-relay [#555](https://github.com/artsy/renovate-config/pull/555) ([@alloy](https://github.com/alloy))
+
+#### Authors: 1
+
+- Eloy Durán ([@alloy](https://github.com/alloy))
+
+---
+
 # v1.16.0 (Fri Aug 30 2019)
 
 #### 🚀  Enhancement
