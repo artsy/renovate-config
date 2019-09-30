@@ -1,3 +1,20 @@
+# v1.17.1 (Mon Sep 30 2019)
+
+#### 🐛  Bug Fix
+
+- Update yarn orb to v2.1.1 [#556](https://github.com/artsy/renovate-config/pull/556) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### 🏠  Internal
+
+- Ensure non-artsy dependencies aren't automerged [#557](https://github.com/artsy/renovate-config/pull/557) ([@zephraph](https://github.com/zephraph))
+
+#### Authors: 2
+
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+- Justin Bennett ([@zephraph](https://github.com/zephraph))
+
+---
+
 # v1.17.0 (Wed Sep 11 2019)
 
 #### 🚀  Enhancement
