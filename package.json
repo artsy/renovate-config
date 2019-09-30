@@ -96,7 +96,8 @@
             "^@omakase",
             "^vscode-apollo-relay"
           ],
-          "masterIssueApproval": true
+          "masterIssueApproval": true,
+          "automerge": false
         },
         {
           "managers": [
