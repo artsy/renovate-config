@@ -21,10 +21,10 @@
   "devDependencies": {
     "@artsy/auto-config": "1.0.1",
     "deepmerge": "4.0.0",
-    "husky": "3.0.4",
+    "husky": "3.0.7",
     "jest": "24.9.0",
     "jest-junit": "8.0.0",
-    "renovate": "19.34.4"
+    "renovate": "19.54.1"
   },
   "husky": {
     "hooks": {
