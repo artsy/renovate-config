@@ -142,7 +142,7 @@
           "managers": [
             "npm"
           ],
-          "autoMerge": true,
+          "automerge": true,
           "packageNames": [
             "typescript",
             "vscode-apollo-relay"
