@@ -1,3 +1,22 @@
+# v1.18.0 (Tue Nov 19 2019)
+
+#### 🚀  Enhancement
+
+- Automatically update typescript [#561](https://github.com/artsy/renovate-config/pull/561) ([@zephraph](https://github.com/zephraph))
+
+#### 🏠  Internal
+
+- Update dep jest-junit from 7.0.0 to v8 [#560](https://github.com/artsy/renovate-config/pull/560) ([@renovate-bot](https://github.com/renovate-bot) [@zephraph](https://github.com/zephraph))
+- Update dep husky from 3.0.4 to v3.0.7 [#558](https://github.com/artsy/renovate-config/pull/558) ([@renovate-bot](https://github.com/renovate-bot))
+- Update dep renovate from 19.34.4 to v19.54.1 [#559](https://github.com/artsy/renovate-config/pull/559) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 2
+
+- Justin Bennett ([@zephraph](https://github.com/zephraph))
+- Renovate Bot ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v1.17.1 (Mon Sep 30 2019)
 
 #### 🐛  Bug Fix
