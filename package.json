@@ -12,7 +12,7 @@
   "bugs": {
     "url": "https://github.com/artsy/renovate-config/issues"
   },
-  "version": "1.17.1",
+  "version": "1.18.0",
   "scripts": {
     "release": "auto shipit",
     "test": "jest",
