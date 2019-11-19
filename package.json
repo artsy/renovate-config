@@ -93,8 +93,7 @@
           ],
           "excludePackagePatterns": [
             "^@artsy",
-            "^@omakase",
-            "^vscode-apollo-relay"
+            "^@omakase"
           ],
           "masterIssueApproval": true,
           "automerge": false
@@ -138,6 +137,17 @@
         {
           "extends": "monorepo:babel",
           "groupName": "babel"
+        },
+        {
+          "managers": [
+            "npm"
+          ],
+          "automerge": true,
+          "packageNames": [
+            "typescript",
+            "vscode-apollo-relay"
+          ],
+          "enabled": true
         }
       ],
       "pin": {
