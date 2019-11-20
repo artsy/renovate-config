@@ -147,7 +147,8 @@
             "typescript",
             "vscode-apollo-relay"
           ],
-          "enabled": true
+          "enabled": true,
+          "masterIssueApproval": false
         }
       ],
       "pin": {
