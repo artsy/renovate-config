@@ -4,16 +4,22 @@ This repo contains the shared configuration for Artsy's [renovate](https://renov
 
 ## Usage
 
-Add a `renovate.json` file to the root of your project. Use the `extends` key to uses one of our presets.
+Add a `renovate.json` file to the root of your project. Use the `extends` key to use Artsy's presets.
 
-Your `renovate.json` file might look something like this
+Recommended configuration for Artsy apps in `renovate.json` file looks like this:
 
 ```json
 {
-  "extends": ["@artsy", "@artsy:example"]
+  "extends": [
+    "@artsy:app"
+  ],
+  "reviewers": [
+    "githubUser"
+  ],
+  "assignees": [
+    "githubUser"
+  ]
 }
 ```
 
-Where `@artsy` is the `default` renovate config, and `@artsy:example` is the `example` renovate config (which doesn't actually exist).
-
-The renovate config presets are stored in this projects package.json.
+The renovate config presets are stored in this project's package.json.
