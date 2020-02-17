@@ -149,6 +149,15 @@
           ],
           "enabled": true,
           "masterIssueApproval": false
+        },
+        {
+          "managers": [
+            "npm"
+          ],
+          "automerge": false,
+          "packageNames": [
+            "@artsy/auto-config"
+          ]
         }
       ],
       "pin": {
