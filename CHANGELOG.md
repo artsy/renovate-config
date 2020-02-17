@@ -1,3 +1,21 @@
+# v1.18.2 (Mon Feb 17 2020)
+
+#### 📝  Documentation
+
+- Update README [#562](https://github.com/artsy/renovate-config/pull/562) ([@eessex](https://github.com/eessex))
+
+#### ⚠️  Pushed to master
+
+- Merge branch 'master' of github.com:artsy/renovate-config  ([@zephraph](https://github.com/zephraph))
+- Disable automerge for auto config  ([@zephraph](https://github.com/zephraph))
+
+#### Authors: 2
+
+- Eve Essex ([@eessex](https://github.com/eessex))
+- Justin Bennett ([@zephraph](https://github.com/zephraph))
+
+---
+
 # v1.18.1 (Wed Nov 20 2019)
 
 #### ⚠️  Pushed to master
