@@ -1,3 +1,15 @@
+# v1.18.1 (Wed Nov 20 2019)
+
+#### ⚠️  Pushed to master
+
+- Disable master issue approval for automerge packages  ([@zephraph](https://github.com/zephraph))
+
+#### Authors: 1
+
+- Justin Bennett ([@zephraph](https://github.com/zephraph))
+
+---
+
 # v1.18.0 (Tue Nov 19 2019)
 
 #### 🚀  Enhancement
