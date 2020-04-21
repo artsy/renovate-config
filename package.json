@@ -86,7 +86,8 @@
           "depTypeList": [
             "dependencies",
             "devDependencies",
-            "peerDependencies"
+            "peerDependencies",
+            "resolutions"
           ],
           "packagePatterns": [
             "*"
