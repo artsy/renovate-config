@@ -1,3 +1,28 @@
+# v1.18.3 (Tue Apr 21 2020)
+
+#### 🐛  Bug Fix
+
+- Add resolutions to the master issue approval flow [#574](https://github.com/artsy/renovate-config/pull/574) ([@zephraph](https://github.com/zephraph))
+
+#### 🏠  Internal
+
+- Update auto orb from 1.1.0 to v1.2.0 [#572](https://github.com/artsy/renovate-config/pull/572) ([@renovate-bot](https://github.com/renovate-bot))
+- Update auto orb to v1.1.0 [#570](https://github.com/artsy/renovate-config/pull/570) ([@renovate-bot](https://github.com/renovate-bot))
+- Update auto orb to v1.0.2 [#569](https://github.com/artsy/renovate-config/pull/569) ([@renovate-bot](https://github.com/renovate-bot))
+- Update yarn orb to v4.0.2 [#568](https://github.com/artsy/renovate-config/pull/568) ([@renovate-bot](https://github.com/renovate-bot))
+- Update yarn orb to v4.0.1 [#567](https://github.com/artsy/renovate-config/pull/567) ([@renovate-bot](https://github.com/renovate-bot))
+- Update yarn orb to v4 [#566](https://github.com/artsy/renovate-config/pull/566) ([@renovate-bot](https://github.com/renovate-bot) [@zephraph](https://github.com/zephraph) [@renovate[bot]](https://github.com/renovate[bot]))
+- Pin dep @artsy/auto-config from ^1.0.2 to 1.0.2 [#565](https://github.com/artsy/renovate-config/pull/565) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update yarn orb to v3 [#564](https://github.com/artsy/renovate-config/pull/564) ([@renovate-bot](https://github.com/renovate-bot) [@zephraph](https://github.com/zephraph) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 3
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Justin Bennett ([@zephraph](https://github.com/zephraph))
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v1.18.2 (Mon Feb 17 2020)
 
 #### 📝  Documentation
