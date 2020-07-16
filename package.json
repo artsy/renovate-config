@@ -86,6 +86,7 @@
           "depTypeList": [
             "dependencies",
             "devDependencies",
+            "optionalDependencies",
             "peerDependencies",
             "resolutions"
           ],
