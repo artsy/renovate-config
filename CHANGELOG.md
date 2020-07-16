@@ -1,3 +1,27 @@
+# v1.19.0 (Thu Jul 16 2020)
+
+#### 🚀  Enhancement
+
+- Add optionalDependencies to depTypeList [#581](https://github.com/artsy/renovate-config/pull/581) ([@eessex](https://github.com/eessex) [@zephraph](https://github.com/zephraph))
+
+#### 🏠  Internal
+
+- Update yarn orb from 5.1.1 to v5.1.3 [#580](https://github.com/artsy/renovate-config/pull/580) ([@renovate-bot](https://github.com/renovate-bot))
+- Update auto orb from 1.2.1 to v1.3.2 [#579](https://github.com/artsy/renovate-config/pull/579) ([@renovate-bot](https://github.com/renovate-bot))
+- Update yarn orb from 5.1.0 to v5.1.1 [#578](https://github.com/artsy/renovate-config/pull/578) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update yarn orb from 5.0.0 to v5.1.0 [#577](https://github.com/artsy/renovate-config/pull/577) ([@renovate-bot](https://github.com/renovate-bot))
+- Update auto orb from 1.2.0 to v1.2.1 [#575](https://github.com/artsy/renovate-config/pull/575) ([@renovate-bot](https://github.com/renovate-bot))
+- Update yarn orb from 4.0.2 to v5 [#576](https://github.com/artsy/renovate-config/pull/576) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 4
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Eve Essex ([@eessex](https://github.com/eessex))
+- Justin Bennett ([@zephraph](https://github.com/zephraph))
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v1.18.3 (Tue Apr 21 2020)
 
 #### 🐛  Bug Fix
