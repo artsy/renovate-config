@@ -1,3 +1,15 @@
+# v1.20.0 (Thu Jun 24 2021)
+
+#### 🚀  Enhancement
+
+- remove me [#588](https://github.com/artsy/renovate-config/pull/588) ([@zephraph](https://github.com/zephraph))
+
+#### Authors: 1
+
+- Justin Bennett ([@zephraph](https://github.com/zephraph))
+
+---
+
 # v1.19.0 (Thu Jul 16 2020)
 
 #### 🚀  Enhancement
