@@ -16,7 +16,7 @@ workflows:
           context: npm-deploy
           filters:
             branches:
-              ignore: master
+              ignore: main
           requires:
             - validate-config
             - yarn/update-cache
@@ -25,7 +25,7 @@ workflows:
           context: npm-deploy
           filters:
             branches:
-              only: master
+              only: main
           requires:
             - validate-config
             - yarn/update-cache

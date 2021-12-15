@@ -38,7 +38,7 @@
 
 #### 🐛  Bug Fix
 
-- Add resolutions to the master issue approval flow [#574](https://github.com/artsy/renovate-config/pull/574) ([@zephraph](https://github.com/zephraph))
+- Add resolutions to the main issue approval flow [#574](https://github.com/artsy/renovate-config/pull/574) ([@zephraph](https://github.com/zephraph))
 
 #### 🏠  Internal
 
@@ -65,9 +65,9 @@
 
 - Update README [#562](https://github.com/artsy/renovate-config/pull/562) ([@eessex](https://github.com/eessex))
 
-#### ⚠️  Pushed to master
+#### ⚠️  Pushed to main
 
-- Merge branch 'master' of github.com:artsy/renovate-config  ([@zephraph](https://github.com/zephraph))
+- Merge branch 'main' of github.com:artsy/renovate-config  ([@zephraph](https://github.com/zephraph))
 - Disable automerge for auto config  ([@zephraph](https://github.com/zephraph))
 
 #### Authors: 2
@@ -79,9 +79,9 @@
 
 # v1.18.1 (Wed Nov 20 2019)
 
-#### ⚠️  Pushed to master
+#### ⚠️  Pushed to main
 
-- Disable master issue approval for automerge packages  ([@zephraph](https://github.com/zephraph))
+- Disable main issue approval for automerge packages  ([@zephraph](https://github.com/zephraph))
 
 #### Authors: 1
 
@@ -171,7 +171,7 @@
 - Update dep renovate from 18.16.14 to v19 [#545](https://github.com/artsy/renovate-config/pull/545) ([@renovate-bot](https://github.com/renovate-bot) [@zephraph](https://github.com/zephraph))
 - Update dep @artsy/auto-config from 1.0.0 to v1.0.1 [#546](https://github.com/artsy/renovate-config/pull/546) ([@renovate-bot](https://github.com/renovate-bot))
 
-#### ⚠️  Pushed to master
+#### ⚠️  Pushed to main
 
 - Update yarn lock file  ([@zephraph](https://github.com/zephraph))
 
@@ -213,7 +213,7 @@
 - Update dep husky from 2.3.0 to v2.4.0 [#537](https://github.com/artsy/renovate-config/pull/537) ([@renovate-bot](https://github.com/renovate-bot))
 - Update dep renovate from 17.16.5 to v18 [#538](https://github.com/artsy/renovate-config/pull/538) ([@renovate-bot](https://github.com/renovate-bot))
 
-#### ⚠️  Pushed to master
+#### ⚠️  Pushed to main
 
 - Hopefully the LAST forced ci build...  ([@zephraph](https://github.com/zephraph))
 - Force another CI build for testing purposes II  ([@zephraph](https://github.com/zephraph))
@@ -326,7 +326,7 @@ _From #531_
 - Update dependency renovate to v17.12.0 [#514](https://github.com/artsy/renovate-config/pull/514) ([@renovate-bot](https://github.com/renovate-bot))
 - Update dependency renovate to v17.11.6 [#513](https://github.com/artsy/renovate-config/pull/513) ([@renovate-bot](https://github.com/renovate-bot))
 
-#### ⚠️  Pushed to master
+#### ⚠️  Pushed to main
 
 - Use PR based canary of the yarn orb  ([@zephraph](https://github.com/zephraph))
 
@@ -851,7 +851,7 @@ _From #446_
 
 #### 🐛  Bug Fix
 
-- Remove global master issue flag as it's no longer needed [#434](https://github.com/artsy/renovate-config/pull/434) ([@zephraph](https://github.com/zephraph))
+- Remove global main issue flag as it's no longer needed [#434](https://github.com/artsy/renovate-config/pull/434) ([@zephraph](https://github.com/zephraph))
 
 #### 🏠  Internal
 
@@ -1007,7 +1007,7 @@ _From #446_
 - Update dependency renovate to v14.54.2  ([@renovate-bot](https://github.com/renovate-bot))
 - Update dependency renovate to v14.54.1  ([@renovate-bot](https://github.com/renovate-bot))
 
-#### ⚠️  Pushed to master
+#### ⚠️  Pushed to main
 
 - Force a deployment  ([@zephraph](https://github.com/zephraph))
 
@@ -1097,7 +1097,7 @@ _From #446_
 - Update dependency renovate to v14.12.0 [#228](https://github.com/artsy/renovate-config/pull/228) ([@renovate-bot](https://github.com/renovate-bot))
 - Update yarn orb to v0.1.5 [#211](https://github.com/artsy/renovate-config/pull/211) ([@renovate-bot](https://github.com/renovate-bot))
 
-#### ⚠️  Pushed to master
+#### ⚠️  Pushed to main
 
 - Update dependency renovate to v14.34.6  ([@renovate-bot](https://github.com/renovate-bot))
 - Update dependency renovate to v14.34.5  ([@renovate-bot](https://github.com/renovate-bot))
