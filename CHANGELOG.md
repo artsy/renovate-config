@@ -1,3 +1,42 @@
+# v1.20.1 (Wed Dec 15 2021)
+
+#### 🐛  Bug Fix
+
+- feat: adopt inclusive language - main default branch [#600](https://github.com/artsy/renovate-config/pull/600) ([@dblandin](https://github.com/dblandin))
+
+#### 🏠  Internal
+
+- Update auto orb from 1.4.0 to v2 [#599](https://github.com/artsy/renovate-config/pull/599) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update yarn orb from 5.1.3 to v6 [#592](https://github.com/artsy/renovate-config/pull/592) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- chore: Add Node 14 LTS Support [#597](https://github.com/artsy/renovate-config/pull/597) ([@icirellik](https://github.com/icirellik))
+- Update dep @artsy/auto-config from 1.0.2 to v1.1.0 [#596](https://github.com/artsy/renovate-config/pull/596) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Bump bin-links from 1.1.2 to 1.1.8 [#582](https://github.com/artsy/renovate-config/pull/582) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Bump npm-user-validate from 1.0.0 to 1.0.1 [#583](https://github.com/artsy/renovate-config/pull/583) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Bump lodash from 4.17.11 to 4.17.15 [#586](https://github.com/artsy/renovate-config/pull/586) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Bump https-proxy-agent from 2.2.1 to 2.2.4 [#573](https://github.com/artsy/renovate-config/pull/573) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Bump y18n from 3.2.1 to 3.2.2 [#584](https://github.com/artsy/renovate-config/pull/584) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Bump hosted-git-info from 2.7.1 to 2.8.9 [#587](https://github.com/artsy/renovate-config/pull/587) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Bump ws from 5.2.2 to 5.2.3 [#589](https://github.com/artsy/renovate-config/pull/589) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Bump ssri from 6.0.1 to 6.0.2 [#585](https://github.com/artsy/renovate-config/pull/585) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Bump acorn from 5.7.3 to 5.7.4 [#571](https://github.com/artsy/renovate-config/pull/571) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Bump path-parse from 1.0.6 to 1.0.7 [#593](https://github.com/artsy/renovate-config/pull/593) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Bump tar from 4.4.8 to 4.4.19 [#594](https://github.com/artsy/renovate-config/pull/594) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Update auto orb from 1.3.2 to v1.4.0 [#590](https://github.com/artsy/renovate-config/pull/590) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### 🔩 Dependency Updates
+
+- Bump tmpl from 1.0.4 to 1.0.5 [#595](https://github.com/artsy/renovate-config/pull/595) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 5
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Cameron Rollheiser ([@icirellik](https://github.com/icirellik))
+- Devon Blandin ([@dblandin](https://github.com/dblandin))
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v1.20.0 (Thu Jun 24 2021)
 
 #### 🚀  Enhancement
