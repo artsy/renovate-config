@@ -1,3 +1,26 @@
+# v1.20.2 (Mon Dec 20 2021)
+
+#### 🐛  Bug Fix
+
+- docs: steps for how to integrate renovate into a project [#603](https://github.com/artsy/renovate-config/pull/603) ([@ovasdi](https://github.com/ovasdi))
+
+#### 🏠  Internal
+
+- Update yarn orb from 6.0.0 to v6.1.0 [#602](https://github.com/artsy/renovate-config/pull/602) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### 🔩 Dependency Updates
+
+- Bump minimist from 1.2.0 to 1.2.5 [#601](https://github.com/artsy/renovate-config/pull/601) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 4
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Ozzie Vasdi ([@ovasdi](https://github.com/ovasdi))
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v1.20.1 (Wed Dec 15 2021)
 
 #### 🐛  Bug Fix
