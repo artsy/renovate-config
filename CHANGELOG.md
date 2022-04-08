@@ -1,3 +1,15 @@
+# v1.21.0 (Fri Apr 08 2022)
+
+#### 🚀  Enhancement
+
+- chore: update renovate assignee [#606](https://github.com/artsy/renovate-config/pull/606) ([@ovasdi](https://github.com/ovasdi))
+
+#### Authors: 1
+
+- Ozzie Vasdi ([@ovasdi](https://github.com/ovasdi))
+
+---
+
 # v1.20.2 (Mon Dec 20 2021)
 
 #### 🐛  Bug Fix
