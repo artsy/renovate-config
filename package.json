@@ -19,7 +19,7 @@
     "generate-config": "node lib/generate-config.js"
   },
   "devDependencies": {
-    "@artsy/auto-config": "1.1.0",
+    "@artsy/auto-config": "1.2.0",
     "deepmerge": "4.2.2",
     "husky": "3.0.7",
     "jest": "24.9.0",
