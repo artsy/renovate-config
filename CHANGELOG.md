@@ -1,3 +1,30 @@
+# v1.22.0 (Fri Oct 20 2023)
+
+#### 🚀  Enhancement
+
+- fix: avoid auto-merging breaking typescript upgrades [#615](https://github.com/artsy/renovate-config/pull/615) ([@joeyAghion](https://github.com/joeyAghion))
+
+#### 🏠  Internal
+
+- chore(deps): update yarn orb from 6.4.0 to v6.5.0 [#613](https://github.com/artsy/renovate-config/pull/613) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Bump ajv from 6.5.5 to 6.12.6 [#604](https://github.com/artsy/renovate-config/pull/604) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): update dep @artsy/auto-config from 1.1.0 to v1.2.0 [#605](https://github.com/artsy/renovate-config/pull/605) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Bump minimist from 1.2.5 to 1.2.6 [#607](https://github.com/artsy/renovate-config/pull/607) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Update yarn orb from 6.2.0 to v6.4.0 [#610](https://github.com/artsy/renovate-config/pull/610) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Bump decode-uri-component from 0.2.0 to 0.2.2 [#611](https://github.com/artsy/renovate-config/pull/611) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Bump qs from 6.5.2 to 6.5.3 [#612](https://github.com/artsy/renovate-config/pull/612) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Update yarn orb from 6.1.0 to v6.2.0 [#609](https://github.com/artsy/renovate-config/pull/609) ([@renovate-bot](https://github.com/renovate-bot))
+- Update auto orb from 2.0.0 to v2.1.0 [#608](https://github.com/artsy/renovate-config/pull/608) ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Authors: 4
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Joey Aghion ([@joeyAghion](https://github.com/joeyAghion))
+- Mend Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v1.21.0 (Fri Apr 08 2022)
 
 #### 🚀  Enhancement
