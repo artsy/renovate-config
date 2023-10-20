@@ -146,7 +146,6 @@
           ],
           "automerge": true,
           "packageNames": [
-            "typescript",
             "vscode-apollo-relay"
           ],
           "enabled": true,
