@@ -1,3 +1,20 @@
+# v1.23.0 (Wed Nov 19 2025)
+
+#### 🚀  Enhancement
+
+- feat: add yarn check github action [#620](https://github.com/artsy/renovate-config/pull/620) ([@mc-jones](https://github.com/mc-jones))
+
+#### 🏠  Internal
+
+- chore(deps): update auto orb from 2.1.0 to v2.2.0 [#616](https://github.com/artsy/renovate-config/pull/616) ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 2
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Matt Jones ([@mc-jones](https://github.com/mc-jones))
+
+---
+
 # v1.22.0 (Fri Oct 20 2023)
 
 #### 🚀  Enhancement
