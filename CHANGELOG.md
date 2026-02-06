@@ -1,3 +1,20 @@
+# v1.23.1 (Fri Feb 06 2026)
+
+#### 🐛  Bug Fix
+
+- feat: add triggers to conventional commits check [#621](https://github.com/artsy/renovate-config/pull/621) ([@amonkhouse](https://github.com/amonkhouse))
+
+#### 🏠  Internal
+
+- chore(deps): update dep auto from 2.2.0 to v2.3.0 [#617](https://github.com/artsy/renovate-config/pull/617) ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 2
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Amy Monkhouse ([@amonkhouse](https://github.com/amonkhouse))
+
+---
+
 # v1.23.0 (Wed Nov 19 2025)
 
 #### 🚀  Enhancement
