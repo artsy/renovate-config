@@ -24,7 +24,7 @@
     "husky": "3.0.7",
     "jest": "24.9.0",
     "jest-junit": "8.0.0",
-    "renovate": "19.239.11"
+    "renovate": "23.25.1"
   },
   "husky": {
     "hooks": {
